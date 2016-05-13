@@ -17,7 +17,7 @@ Requires  Ruby ruby 2.2.1p85
 
 uses Jetty "installed by Rails automatically when App is created"
 
-Both Ruby and Rails are installed in nara user home directory
+Both Ruby and Rails are installed in nara user home directory  
 Nara rails app is installed in /data/NARA
 
 # External dependencies
