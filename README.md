@@ -12,8 +12,8 @@ http://vm154.lib.berkeley.edu:3001/searchcase/search
 /home/nara/.rvm/rubies/ruby-2.2.1/bin/ruby bin/rails s -p3001 -b0.0.0.0 -d -e production
 
 # Dependencies
-Requires  Rails 4.2.3 > 
-Requires  Ruby ruby 2.2.1p85 >
+Requires  Rails 4.2.3  
+Requires  Ruby ruby 2.2.1p85  
 
 uses Jetty "installed by Rails automatically when App is created"
 
