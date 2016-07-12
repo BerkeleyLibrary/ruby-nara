@@ -1,0 +1,84 @@
+<%= link_to image_tag(asset_path('nara.jpg')),"http://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944"  %>
+<p>
+<div class="wrapper">
+<%= link_to "PREVIOUS RESULTS", :back, {:style=>'color:#2E64FE;'} %></br>	
+<%= link_to "NEW SEARCH", "/searchcase/search",{:style=>'color:#2E64FE;'} %></br></br>
+
+<h2>The Early Arrivals Records Search (EARS)</h2>
+</br>
+<h3>A Dataset From Case Files for Early Immigrants to San Francisco and Hawaii,</br>
+Immigration and Naturalization Service Records at NARA's Pacific Region (San Bruno), SF RG 85</h3>
+
+</br></br></br>
+
+
+<table style="border: 1px; width: 300px;">
+<% @return.each do |row| %>
+	<td>LastName</td><td><%= row.LASTNAME %></td></tr>
+	<td>FirstName</td><td><%= row.FIRSTNAME %></td></tr> 
+	<td>MiddleName</td><td><%= row.MIDDLENAME %></td></tr> 
+	<td>Box Number</td><td><%= row.BOXNUMBER %></td></tr> 
+	<td>Series</td><td><%= row.SERIES %></td></tr> 
+	<td>Case Number</td><td><%= row.CASENUMBER %></td></tr> 
+	<td>Ship</td><td><%= row.SHIP %></td></tr> 
+	<td>Port</td><td><%= row.PORT %></td></tr> 
+	<td>Date</td><td><%= row.DATE %></td></tr> 
+	<td>Destination</td><td><%= row.DESTINATION %></td></tr> 
+	<td>Birthplace</td><td><%= row.BIRTHPLACE %></td></tr> 
+	<td>Birthplace City</td><td><%= row.BIRTHPLACE_CITY %></td></tr> 
+	<td>Birthplace State</td><td><%= row.BIRTHPLACE_STATE %></td></tr> 
+	<td>Birthplace City</td><td><%= row.BIRTHPLACE_CITY %></td></tr> 
+	<td>Date of Birth</td><td><%= row.DOB %></td></tr> 
+	<td>Age</td><td><%= row.AGE %></td></tr> 
+	<td>Gender</td><td><%= row.GENDER %></td></tr> 
+	<td>AFilenum</td><td><%= row.AFILENUM %></td></tr> 
+	<td>Class</td><td><%= row.CLASS %></td></tr> 
+	<td>Disposition of Case</td><td><%= row.DISPOSITION_OF_CASE %></td></tr> 
+	<td>Birth Street</td><td><%= row.ST_BORN %></td></tr> 
+	<td>House Number</td><td><%= row.HOUSE_NUM %></td></tr> 
+	<td>Other Last Name</td><td><%= row.OTHERNAMEL %></td></tr> 
+	<td>Other First Name</td><td><%= row.OTHERNAMEF %></td></tr> 
+	<td>Other Middle Name</td><td><%= row.OTHERNAMEM %></td></tr> 
+	<td>Certificate of Residence</td><td><%= row.CERTIFICATE_OF_RESIDENCE %></td></tr> 
+	<td>Certificate of Identity</td><td><%= row.CERTIFICATE_OF_IDENTITY %></td></tr> 
+	<td>Red Eagle Certificate</td><td><%= row.RED_EAGLE_CERTIFICATE %></td></tr> 
+	<td>Court Record</td><td><%= row.COURT_RECORD %></td></tr> 
+	<td>Remarks</td><td><%= row.REMARKS %></td></tr> 
+	<td>Source</td><td><%= row.SOURCE %></td></tr> 
+	<td>Date Entered</td><td><%= row.DATE_ENTERED %></td></tr> 
+	
+<% end %>
+</table>
+
+</br></br>
+<%= link_to "PREVIOUS RESULTS", :back,{:style=>'color:#2E64FE;'} %></br>
+<%= link_to "NEW SEARCH", "/searchcase/search",{:style=>'color:#2E64FE;'} %></br>
+</br></br>
+
+<div class="push"></div>
+</div>
+
+<div class="footer">
+<h6>
+<img src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" /><a
+href="http://www.lib.berkeley.edu/">Library Web</a><img
+src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" /><a
+href="http://www.berkeley.edu/">UC Berkeley home</a><img
+src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" />
+<!--End bottom menu-->
+
+<!--Begin footer-->
+
+<br /><br />
+Copyright &copy;<%= Time.now.year %> 
+<br />
+
+The Regents of the University of California. <em>All rights
+reserved.</em><br />
+Questions or problems with these forms: <a
+href="mailto:dzuckerm@library.berkeley.edu">dzuckerm@library.berkeley.edu</a>
+<br />
+Server manager: <a href="http://www.lib.berkeley.edu/Comments/">contact</a>.
+
+</h6>
+</div>

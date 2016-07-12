@@ -1,0 +1,1711 @@
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:34:33 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 277ms (Views: 257.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:34:34 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:34:34 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:34:34 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:34:34 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:34:34 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:34:34 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:34:34 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:34:34 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:34:34 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:34:34 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:37:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:37:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:37:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:37:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:37:40 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:37:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:37:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:37:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:37:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:37:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:37:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:37:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:37:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-03-24 15:37:46 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:38:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:38:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:38:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:38:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:38:26 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:38:26 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:26 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:38:26 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:26 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:26 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:38:26 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:26 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:26 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:26 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:26 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:38:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:38:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:38:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:38:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:38:45 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-03-24 15:39:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[36m (138.4ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mSearchCasefile Load (139.0ms)[0m  [1mSELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0[0m
+  Rendered searchcase/display.html.erb within layouts/application (225.0ms)
+Completed 200 OK in 416ms (Views: 122.4ms | ActiveRecord: 280.6ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:39:43 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.179 at 2016-03-24 15:40:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.179 at 2016-03-24 15:40:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.179 at 2016-03-24 15:40:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.179 at 2016-03-24 15:40:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.179 at 2016-03-24 15:40:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.179 at 2016-03-24 15:40:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.179 at 2016-03-24 15:40:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.179 at 2016-03-24 15:40:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.179 at 2016-03-24 15:40:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.179 at 2016-03-24 15:40:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.179 at 2016-03-24 15:40:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-03-24 15:42:46 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-03-24 15:47:46 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:49:31 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:49:31 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:49:31 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:49:31 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:49:31 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:49:31 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:49:31 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:49:31 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:49:31 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:49:31 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:49:31 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:50:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:50:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:50:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:50:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:05 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:50:49 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:50:49 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:50:49 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:49 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:49 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:49 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:50:49 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:49 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:49 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:49 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:50:49 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.179 at 2016-03-24 15:51:12 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.179 at 2016-03-24 15:51:12 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.179 at 2016-03-24 15:51:12 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.179 at 2016-03-24 15:51:12 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.179 at 2016-03-24 15:51:12 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.179 at 2016-03-24 15:51:12 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.179 at 2016-03-24 15:51:12 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.179 at 2016-03-24 15:51:12 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.179 at 2016-03-24 15:51:12 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.179 at 2016-03-24 15:51:12 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.179 at 2016-03-24 15:51:12 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-03-24 15:52:46 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:52:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:52:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:52:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:52:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:52:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:52:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:52:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:52:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:52:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:52:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:52:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.179 at 2016-03-24 15:53:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.179 at 2016-03-24 15:53:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.179 at 2016-03-24 15:53:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.179 at 2016-03-24 15:53:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.179 at 2016-03-24 15:53:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.179 at 2016-03-24 15:53:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.179 at 2016-03-24 15:53:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.179 at 2016-03-24 15:53:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.179 at 2016-03-24 15:53:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.179 at 2016-03-24 15:53:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.179 at 2016-03-24 15:53:20 -0700
+Cannot render console from 128.32.99.179! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-03-24 15:57:46 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:57:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:57:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:57:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:57:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:57:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:57:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:57:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:57:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:57:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:57:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:57:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 15:58:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:58:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 15:58:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-04bdb5b6ed96e95d0814f846c0a58ffc06610d9176cde197670264f59a8d7236.css?body=1" for 128.32.99.161 at 2016-03-24 15:58:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 15:58:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 15:58:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 15:58:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:58:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:58:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 15:58:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 15:58:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-03-24 16:00:43 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[35m (133.5ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mSearchCasefile Load (228.0ms)[0m  SELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0
+  Rendered searchcase/display.html.erb within layouts/application (270.8ms)
+Completed 200 OK in 441ms (Views: 76.3ms | ActiveRecord: 361.5ms)
+
+
+Started GET "/searchcase/fullDisplay?data=191572" for 128.32.99.161 at 2016-03-24 16:00:47 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#fullDisplay as HTML
+  Parameters: {"data"=>"191572"}
+  [1m[36mSearchCasefile Load (120.1ms)[0m  [1mSELECT `NARA_CaseFiles`.`LASTNAME`, `NARA_CaseFiles`.`FIRSTNAME`, `NARA_CaseFiles`.`MIDDLENAME`, `NARA_CaseFiles`.`BOXNUMBER`, `NARA_CaseFiles`.`SERIES`, `NARA_CaseFiles`.`CASENUMBER`, `NARA_CaseFiles`.`SHIP`, `NARA_CaseFiles`.`DATE`, `NARA_CaseFiles`.`DESTINATION`, `NARA_CaseFiles`.`BIRTHPLACE`, `NARA_CaseFiles`.`BIRTHPLACE_CITY`, `NARA_CaseFiles`.`BIRTHPLACE_STATE`, `NARA_CaseFiles`.`DOB`, `NARA_CaseFiles`.`AGE`, `NARA_CaseFiles`.`GENDER`, `NARA_CaseFiles`.`AFILENUM`, `NARA_CaseFiles`.`CLASS`, `NARA_CaseFiles`.`DISPOSITION_OF_CASE`, `NARA_CaseFiles`.`ST_BORN`, `NARA_CaseFiles`.`HOUSE_NUM`, `NARA_CaseFiles`.`OTHERNAMEL`, `NARA_CaseFiles`.`OTHERNAMEF`, `NARA_CaseFiles`.`OTHERNAMEM`, `NARA_CaseFiles`.`CERTIFICATE_OF_RESIDENCE`, `NARA_CaseFiles`.`CERTIFICATE_OF_IDENTITY`, `NARA_CaseFiles`.`RED_EAGLE_CERTIFICATE`, `NARA_CaseFiles`.`COURT_RECORD`, `NARA_CaseFiles`.`REMARKS`, `NARA_CaseFiles`.`PORT`, `NARA_CaseFiles`.`SOURCE`, `NARA_CaseFiles`.`DATE_ENTERED` FROM `NARA_CaseFiles` WHERE (Case_ID = '191572')[0m
+  Rendered searchcase/fullDisplay.html.erb within layouts/application (123.6ms)
+Completed 200 OK in 170ms (Views: 49.5ms | ActiveRecord: 120.1ms)
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-03-24 16:00:52 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[35m (135.3ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mSearchCasefile Load (228.3ms)[0m  SELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0
+  Rendered searchcase/display.html.erb within layouts/application (266.5ms)
+Completed 200 OK in 438ms (Views: 73.3ms | ActiveRecord: 363.6ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 16:00:54 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-03-24 16:00:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[36m (57.9ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mSearchCasefile Load (97.3ms)[0m  [1mSELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0[0m
+  Rendered searchcase/display.html.erb within layouts/application (132.8ms)
+Completed 200 OK in 226ms (Views: 69.0ms | ActiveRecord: 155.2ms)
+
+
+Started GET "/searchcase/display?commit=Search&page=918&q=&utf8=%E2%9C%93" for 128.32.99.161 at 2016-03-24 16:01:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"commit"=>"Search", "page"=>"918", "q"=>"", "utf8"=>"✓"}
+  [1m[35m (56.5ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mSearchCasefile Load (273.3ms)[0m  SELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 91700
+  Rendered searchcase/display.html.erb within layouts/application (309.3ms)
+Completed 200 OK in 406ms (Views: 74.4ms | ActiveRecord: 329.8ms)
+
+
+Started GET "/searchcase/fullDisplay?data=213515" for 128.32.99.161 at 2016-03-24 16:01:08 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#fullDisplay as HTML
+  Parameters: {"data"=>"213515"}
+  [1m[36mSearchCasefile Load (52.8ms)[0m  [1mSELECT `NARA_CaseFiles`.`LASTNAME`, `NARA_CaseFiles`.`FIRSTNAME`, `NARA_CaseFiles`.`MIDDLENAME`, `NARA_CaseFiles`.`BOXNUMBER`, `NARA_CaseFiles`.`SERIES`, `NARA_CaseFiles`.`CASENUMBER`, `NARA_CaseFiles`.`SHIP`, `NARA_CaseFiles`.`DATE`, `NARA_CaseFiles`.`DESTINATION`, `NARA_CaseFiles`.`BIRTHPLACE`, `NARA_CaseFiles`.`BIRTHPLACE_CITY`, `NARA_CaseFiles`.`BIRTHPLACE_STATE`, `NARA_CaseFiles`.`DOB`, `NARA_CaseFiles`.`AGE`, `NARA_CaseFiles`.`GENDER`, `NARA_CaseFiles`.`AFILENUM`, `NARA_CaseFiles`.`CLASS`, `NARA_CaseFiles`.`DISPOSITION_OF_CASE`, `NARA_CaseFiles`.`ST_BORN`, `NARA_CaseFiles`.`HOUSE_NUM`, `NARA_CaseFiles`.`OTHERNAMEL`, `NARA_CaseFiles`.`OTHERNAMEF`, `NARA_CaseFiles`.`OTHERNAMEM`, `NARA_CaseFiles`.`CERTIFICATE_OF_RESIDENCE`, `NARA_CaseFiles`.`CERTIFICATE_OF_IDENTITY`, `NARA_CaseFiles`.`RED_EAGLE_CERTIFICATE`, `NARA_CaseFiles`.`COURT_RECORD`, `NARA_CaseFiles`.`REMARKS`, `NARA_CaseFiles`.`PORT`, `NARA_CaseFiles`.`SOURCE`, `NARA_CaseFiles`.`DATE_ENTERED` FROM `NARA_CaseFiles` WHERE (Case_ID = '213515')[0m
+  Rendered searchcase/fullDisplay.html.erb within layouts/application (54.6ms)
+Completed 200 OK in 86ms (Views: 32.0ms | ActiveRecord: 52.8ms)
+
+
+Started GET "/searchcase/display?commit=Search&page=918&q=&utf8=%E2%9C%93" for 128.32.99.161 at 2016-03-24 16:01:20 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"commit"=>"Search", "page"=>"918", "q"=>"", "utf8"=>"✓"}
+  [1m[35m (56.7ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mSearchCasefile Load (305.7ms)[0m  SELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 91700
+  Rendered searchcase/display.html.erb within layouts/application (339.3ms)
+Completed 200 OK in 428ms (Views: 63.8ms | ActiveRecord: 362.4ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 16:01:22 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-03-24 16:02:46 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 16:04:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 16:04:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 16:04:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:04:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-c545c42a1f3e797827fc95640ae0984f14148605b19eb0a6e66bbb98f4df8f43.css?body=1" for 128.32.99.161 at 2016-03-24 16:04:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:04:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 16:04:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:04:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 16:04:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 16:04:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 16:04:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-bab410ef1d6afbb58d6e1328a98c43e0d8c9bb8d3e9780935fa50e964d5ca7f2.css?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:12 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 16:05:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 16:05:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-bab410ef1d6afbb58d6e1328a98c43e0d8c9bb8d3e9780935fa50e964d5ca7f2.css?body=1" for 128.32.99.161 at 2016-03-24 16:05:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 16:05:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:41 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:42 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:42 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:42 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:42 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:42 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 16:05:42 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-bab410ef1d6afbb58d6e1328a98c43e0d8c9bb8d3e9780935fa50e964d5ca7f2.css?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-03-24 16:07:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-03-24 16:07:29 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[36m (137.8ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mSearchCasefile Load (227.6ms)[0m  [1mSELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0[0m
+  Rendered searchcase/display.html.erb within layouts/application (262.9ms)
+Completed 200 OK in 437ms (Views: 69.8ms | ActiveRecord: 365.4ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 16:07:33 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 36ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-03-24 16:07:36 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[35m (133.7ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mSearchCasefile Load (229.0ms)[0m  SELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0
+  Rendered searchcase/display.html.erb within layouts/application (265.8ms)
+Completed 200 OK in 437ms (Views: 72.7ms | ActiveRecord: 362.8ms)
+
+
+Started GET "/searchcase/fullDisplay?data=190197" for 128.32.99.161 at 2016-03-24 16:07:38 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#fullDisplay as HTML
+  Parameters: {"data"=>"190197"}
+  [1m[36mSearchCasefile Load (124.1ms)[0m  [1mSELECT `NARA_CaseFiles`.`LASTNAME`, `NARA_CaseFiles`.`FIRSTNAME`, `NARA_CaseFiles`.`MIDDLENAME`, `NARA_CaseFiles`.`BOXNUMBER`, `NARA_CaseFiles`.`SERIES`, `NARA_CaseFiles`.`CASENUMBER`, `NARA_CaseFiles`.`SHIP`, `NARA_CaseFiles`.`DATE`, `NARA_CaseFiles`.`DESTINATION`, `NARA_CaseFiles`.`BIRTHPLACE`, `NARA_CaseFiles`.`BIRTHPLACE_CITY`, `NARA_CaseFiles`.`BIRTHPLACE_STATE`, `NARA_CaseFiles`.`DOB`, `NARA_CaseFiles`.`AGE`, `NARA_CaseFiles`.`GENDER`, `NARA_CaseFiles`.`AFILENUM`, `NARA_CaseFiles`.`CLASS`, `NARA_CaseFiles`.`DISPOSITION_OF_CASE`, `NARA_CaseFiles`.`ST_BORN`, `NARA_CaseFiles`.`HOUSE_NUM`, `NARA_CaseFiles`.`OTHERNAMEL`, `NARA_CaseFiles`.`OTHERNAMEF`, `NARA_CaseFiles`.`OTHERNAMEM`, `NARA_CaseFiles`.`CERTIFICATE_OF_RESIDENCE`, `NARA_CaseFiles`.`CERTIFICATE_OF_IDENTITY`, `NARA_CaseFiles`.`RED_EAGLE_CERTIFICATE`, `NARA_CaseFiles`.`COURT_RECORD`, `NARA_CaseFiles`.`REMARKS`, `NARA_CaseFiles`.`PORT`, `NARA_CaseFiles`.`SOURCE`, `NARA_CaseFiles`.`DATE_ENTERED` FROM `NARA_CaseFiles` WHERE (Case_ID = '190197')[0m
+  Rendered searchcase/fullDisplay.html.erb within layouts/application (127.8ms)
+Completed 200 OK in 170ms (Views: 45.4ms | ActiveRecord: 124.1ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-03-24 16:07:43 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-03-24 16:07:46 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-14 08:40:28 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/data/NARA/app/views/searchcase/search.html.erb:59: syntax error, unexpected keyword_ensure, expecting ')'
+/data/NARA/app/views/searchcase/search.html.erb:61: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/searchcase/search.html.erb:59: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/searchcase/search.html.erb:61: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.2ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.7ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-14 08:40:29 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/data/NARA/app/views/searchcase/search.html.erb:59: syntax error, unexpected keyword_ensure, expecting ')'
+/data/NARA/app/views/searchcase/search.html.erb:61: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/searchcase/search.html.erb:59: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/searchcase/search.html.erb:61: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.1ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-14 08:40:33 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/data/NARA/app/views/searchcase/search.html.erb:59: syntax error, unexpected keyword_ensure, expecting ')'
+/data/NARA/app/views/searchcase/search.html.erb:61: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/searchcase/search.html.erb:59: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/searchcase/search.html.erb:61: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.5ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-14 08:41:58 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (224.0ms)
+Completed 200 OK in 359ms (Views: 357.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-04-14 08:41:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-04-14 08:41:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-bab410ef1d6afbb58d6e1328a98c43e0d8c9bb8d3e9780935fa50e964d5ca7f2.css?body=1" for 128.32.99.161 at 2016-04-14 08:41:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-04-14 08:41:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-04-14 08:41:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-04-14 08:41:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-04-14 08:41:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-04-14 08:41:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-04-14 08:41:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-04-14 08:41:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara-8aed76ad2c77a83c7545bb175a87ce3aed0ae948506bbca40d24bfbad5698f03.jpg" for 128.32.99.161 at 2016-04-14 08:41:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 08:42:04 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-04-14 08:42:47 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[36m (134.7ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mSearchCasefile Load (217.2ms)[0m  [1mSELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0[0m
+  Rendered searchcase/display.html.erb within layouts/application (301.0ms)
+Completed 200 OK in 489ms (Views: 118.6ms | ActiveRecord: 354.5ms)
+
+
+Started GET "/searchcase/fullDisplay?data=190161" for 128.32.99.161 at 2016-04-14 08:42:51 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#fullDisplay as HTML
+  Parameters: {"data"=>"190161"}
+  [1m[35mSearchCasefile Load (125.8ms)[0m  SELECT `NARA_CaseFiles`.`LASTNAME`, `NARA_CaseFiles`.`FIRSTNAME`, `NARA_CaseFiles`.`MIDDLENAME`, `NARA_CaseFiles`.`BOXNUMBER`, `NARA_CaseFiles`.`SERIES`, `NARA_CaseFiles`.`CASENUMBER`, `NARA_CaseFiles`.`SHIP`, `NARA_CaseFiles`.`DATE`, `NARA_CaseFiles`.`DESTINATION`, `NARA_CaseFiles`.`BIRTHPLACE`, `NARA_CaseFiles`.`BIRTHPLACE_CITY`, `NARA_CaseFiles`.`BIRTHPLACE_STATE`, `NARA_CaseFiles`.`DOB`, `NARA_CaseFiles`.`AGE`, `NARA_CaseFiles`.`GENDER`, `NARA_CaseFiles`.`AFILENUM`, `NARA_CaseFiles`.`CLASS`, `NARA_CaseFiles`.`DISPOSITION_OF_CASE`, `NARA_CaseFiles`.`ST_BORN`, `NARA_CaseFiles`.`HOUSE_NUM`, `NARA_CaseFiles`.`OTHERNAMEL`, `NARA_CaseFiles`.`OTHERNAMEF`, `NARA_CaseFiles`.`OTHERNAMEM`, `NARA_CaseFiles`.`CERTIFICATE_OF_RESIDENCE`, `NARA_CaseFiles`.`CERTIFICATE_OF_IDENTITY`, `NARA_CaseFiles`.`RED_EAGLE_CERTIFICATE`, `NARA_CaseFiles`.`COURT_RECORD`, `NARA_CaseFiles`.`REMARKS`, `NARA_CaseFiles`.`PORT`, `NARA_CaseFiles`.`SOURCE`, `NARA_CaseFiles`.`DATE_ENTERED` FROM `NARA_CaseFiles` WHERE (Case_ID = '190161')
+  Rendered searchcase/fullDisplay.html.erb within layouts/application (131.7ms)
+Completed 200 OK in 169ms (Views: 41.8ms | ActiveRecord: 125.8ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-14 08:42:54 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-04-14 08:43:04 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[36m (130.8ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mCACHE (0.1ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mSearchCasefile Load (233.9ms)[0m  [1mSELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0[0m
+  Rendered searchcase/display.html.erb within layouts/application (338.4ms)
+Completed 200 OK in 542ms (Views: 175.0ms | ActiveRecord: 364.8ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-14 08:43:08 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 62ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-bab410ef1d6afbb58d6e1328a98c43e0d8c9bb8d3e9780935fa50e964d5ca7f2.css?body=1" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara-8aed76ad2c77a83c7545bb175a87ce3aed0ae948506bbca40d24bfbad5698f03.jpg" for 128.32.99.161 at 2016-04-14 08:44:11 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-04-14 08:44:13 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[35m (135.7ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mSearchCasefile Load (233.7ms)[0m  SELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0
+  Rendered searchcase/display.html.erb within layouts/application (272.5ms)
+Completed 200 OK in 442ms (Views: 70.4ms | ActiveRecord: 369.4ms)
+
+
+Started GET "/searchcase/fullDisplay?data=190161" for 128.32.99.161 at 2016-04-14 08:44:16 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#fullDisplay as HTML
+  Parameters: {"data"=>"190161"}
+  [1m[36mSearchCasefile Load (125.3ms)[0m  [1mSELECT `NARA_CaseFiles`.`LASTNAME`, `NARA_CaseFiles`.`FIRSTNAME`, `NARA_CaseFiles`.`MIDDLENAME`, `NARA_CaseFiles`.`BOXNUMBER`, `NARA_CaseFiles`.`SERIES`, `NARA_CaseFiles`.`CASENUMBER`, `NARA_CaseFiles`.`SHIP`, `NARA_CaseFiles`.`DATE`, `NARA_CaseFiles`.`DESTINATION`, `NARA_CaseFiles`.`BIRTHPLACE`, `NARA_CaseFiles`.`BIRTHPLACE_CITY`, `NARA_CaseFiles`.`BIRTHPLACE_STATE`, `NARA_CaseFiles`.`DOB`, `NARA_CaseFiles`.`AGE`, `NARA_CaseFiles`.`GENDER`, `NARA_CaseFiles`.`AFILENUM`, `NARA_CaseFiles`.`CLASS`, `NARA_CaseFiles`.`DISPOSITION_OF_CASE`, `NARA_CaseFiles`.`ST_BORN`, `NARA_CaseFiles`.`HOUSE_NUM`, `NARA_CaseFiles`.`OTHERNAMEL`, `NARA_CaseFiles`.`OTHERNAMEF`, `NARA_CaseFiles`.`OTHERNAMEM`, `NARA_CaseFiles`.`CERTIFICATE_OF_RESIDENCE`, `NARA_CaseFiles`.`CERTIFICATE_OF_IDENTITY`, `NARA_CaseFiles`.`RED_EAGLE_CERTIFICATE`, `NARA_CaseFiles`.`COURT_RECORD`, `NARA_CaseFiles`.`REMARKS`, `NARA_CaseFiles`.`PORT`, `NARA_CaseFiles`.`SOURCE`, `NARA_CaseFiles`.`DATE_ENTERED` FROM `NARA_CaseFiles` WHERE (Case_ID = '190161')[0m
+  Rendered searchcase/fullDisplay.html.erb within layouts/application (163.1ms)
+Completed 200 OK in 258ms (Views: 130.9ms | ActiveRecord: 125.3ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-14 08:45:20 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 08:47:04 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 08:52:04 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 08:57:04 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 09:02:04 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 61ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 09:07:04 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 66ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 09:12:04 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 09:17:04 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 98ms (Views: 96.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 09:22:04 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 242ms (Views: 240.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 09:27:08 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 09:32:08 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 09:37:08 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 61ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 09:42:08 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 110ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 09:47:08 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.227.164 at 2016-04-14 09:52:08 -0700
+Cannot render console from 128.32.227.164! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-26 15:32:17 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (309.4ms)
+Completed 500 Internal Server Error in 363ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `symbolize_keys' for #<String:0x0000000437e7f0>):
+    1: <!--img src="http://blogs.lib.berkeley.edu/rsc/img/header_blog_blue.gif" width="740"
+    2: height="50" /-->
+    3: <%= link_to image_tag(asset_path('nara.jpg'),"http://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944") %>
+    4: <div class="wrapper">
+    5: </br></br>
+    6: <h2>The Early Arrivals Records Search (EARS)</h2>
+  app/views/searchcase/search.html.erb:3:in `_app_views_searchcase_search_html_erb___2901143186993432251_37700540'
+
+
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.8ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (71.3ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-26 15:32:59 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/data/NARA/app/views/searchcase/search.html.erb:58: syntax error, unexpected keyword_ensure, expecting ')'
+/data/NARA/app/views/searchcase/search.html.erb:60: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/searchcase/search.html.erb:58: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/searchcase/search.html.erb:60: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.5ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-26 15:33:02 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/data/NARA/app/views/searchcase/search.html.erb:58: syntax error, unexpected keyword_ensure, expecting ')'
+/data/NARA/app/views/searchcase/search.html.erb:60: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/searchcase/search.html.erb:58: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/searchcase/search.html.erb:60: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/nara/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.3ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-26 15:34:22 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (272.9ms)
+Completed 200 OK in 413ms (Views: 368.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/nara_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-04-26 15:34:23 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 128.32.99.161 at 2016-04-26 15:34:23 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-bab410ef1d6afbb58d6e1328a98c43e0d8c9bb8d3e9780935fa50e964d5ca7f2.css?body=1" for 128.32.99.161 at 2016-04-26 15:34:23 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-04-26 15:34:23 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/searchcase.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-04-26 15:34:23 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 128.32.99.161 at 2016-04-26 15:34:23 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/search_casefile.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 128.32.99.161 at 2016-04-26 15:34:23 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 128.32.99.161 at 2016-04-26 15:34:23 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 128.32.99.161 at 2016-04-26 15:34:23 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 128.32.99.161 at 2016-04-26 15:34:23 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/nara-8aed76ad2c77a83c7545bb175a87ce3aed0ae948506bbca40d24bfbad5698f03.jpg" for 128.32.99.161 at 2016-04-26 15:34:23 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-04-26 15:34:34 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[36m (142.8ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mSearchCasefile Load (218.0ms)[0m  [1mSELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0[0m
+  Rendered searchcase/display.html.erb within layouts/application (518.4ms)
+Completed 200 OK in 812ms (Views: 426.1ms | ActiveRecord: 364.7ms)
+
+
+Started GET "/searchcase/search" for 128.32.99.161 at 2016-04-26 15:34:46 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#search as HTML
+  Rendered searchcase/search.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 107ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-04-26 15:34:48 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[35m (142.2ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mSearchCasefile Load (236.9ms)[0m  SELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0
+  Rendered searchcase/display.html.erb within layouts/application (328.2ms)
+Completed 200 OK in 556ms (Views: 173.3ms | ActiveRecord: 379.1ms)
+
+
+Started GET "/searchcase/fullDisplay?data=190817" for 128.32.99.161 at 2016-04-26 15:34:50 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#fullDisplay as HTML
+  Parameters: {"data"=>"190817"}
+  [1m[36mSearchCasefile Load (129.4ms)[0m  [1mSELECT `NARA_CaseFiles`.`LASTNAME`, `NARA_CaseFiles`.`FIRSTNAME`, `NARA_CaseFiles`.`MIDDLENAME`, `NARA_CaseFiles`.`BOXNUMBER`, `NARA_CaseFiles`.`SERIES`, `NARA_CaseFiles`.`CASENUMBER`, `NARA_CaseFiles`.`SHIP`, `NARA_CaseFiles`.`DATE`, `NARA_CaseFiles`.`DESTINATION`, `NARA_CaseFiles`.`BIRTHPLACE`, `NARA_CaseFiles`.`BIRTHPLACE_CITY`, `NARA_CaseFiles`.`BIRTHPLACE_STATE`, `NARA_CaseFiles`.`DOB`, `NARA_CaseFiles`.`AGE`, `NARA_CaseFiles`.`GENDER`, `NARA_CaseFiles`.`AFILENUM`, `NARA_CaseFiles`.`CLASS`, `NARA_CaseFiles`.`DISPOSITION_OF_CASE`, `NARA_CaseFiles`.`ST_BORN`, `NARA_CaseFiles`.`HOUSE_NUM`, `NARA_CaseFiles`.`OTHERNAMEL`, `NARA_CaseFiles`.`OTHERNAMEF`, `NARA_CaseFiles`.`OTHERNAMEM`, `NARA_CaseFiles`.`CERTIFICATE_OF_RESIDENCE`, `NARA_CaseFiles`.`CERTIFICATE_OF_IDENTITY`, `NARA_CaseFiles`.`RED_EAGLE_CERTIFICATE`, `NARA_CaseFiles`.`COURT_RECORD`, `NARA_CaseFiles`.`REMARKS`, `NARA_CaseFiles`.`PORT`, `NARA_CaseFiles`.`SOURCE`, `NARA_CaseFiles`.`DATE_ENTERED` FROM `NARA_CaseFiles` WHERE (Case_ID = '190817')[0m
+  Rendered searchcase/fullDisplay.html.erb within layouts/application (143.9ms)
+Completed 200 OK in 228ms (Views: 96.9ms | ActiveRecord: 129.4ms)
+
+
+Started GET "/searchcase/display?utf8=%E2%9C%93&q=&commit=Search" for 128.32.99.161 at 2016-04-26 15:34:55 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#display as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"", "commit"=>"Search"}
+  [1m[35m (134.8ms)[0m  SELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')[0m
+  [1m[35mSearchCasefile Load (221.2ms)[0m  SELECT  `NARA_CaseFiles`.* FROM `NARA_CaseFiles` WHERE (LASTNAME like '%%' or FIRSTNAME like '%%' or DESTINATION like '%%' or BIRTHPLACE like '%%' or PORT like '%%' or date like '%%' or Case_ID like '%%' or ship like '%%')  ORDER BY `NARA_CaseFiles`.`LASTNAME` ASC, `NARA_CaseFiles`.`FIRSTNAME` ASC LIMIT 100 OFFSET 0
+  Rendered searchcase/display.html.erb within layouts/application (317.1ms)
+Completed 200 OK in 538ms (Views: 177.5ms | ActiveRecord: 356.1ms)
+
+
+Started GET "/searchcase/fullDisplay?data=190161" for 128.32.99.161 at 2016-04-26 15:35:08 -0700
+Cannot render console from 128.32.99.161! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchcaseController#fullDisplay as HTML
+  Parameters: {"data"=>"190161"}
+  [1m[36mSearchCasefile Load (129.0ms)[0m  [1mSELECT `NARA_CaseFiles`.`LASTNAME`, `NARA_CaseFiles`.`FIRSTNAME`, `NARA_CaseFiles`.`MIDDLENAME`, `NARA_CaseFiles`.`BOXNUMBER`, `NARA_CaseFiles`.`SERIES`, `NARA_CaseFiles`.`CASENUMBER`, `NARA_CaseFiles`.`SHIP`, `NARA_CaseFiles`.`DATE`, `NARA_CaseFiles`.`DESTINATION`, `NARA_CaseFiles`.`BIRTHPLACE`, `NARA_CaseFiles`.`BIRTHPLACE_CITY`, `NARA_CaseFiles`.`BIRTHPLACE_STATE`, `NARA_CaseFiles`.`DOB`, `NARA_CaseFiles`.`AGE`, `NARA_CaseFiles`.`GENDER`, `NARA_CaseFiles`.`AFILENUM`, `NARA_CaseFiles`.`CLASS`, `NARA_CaseFiles`.`DISPOSITION_OF_CASE`, `NARA_CaseFiles`.`ST_BORN`, `NARA_CaseFiles`.`HOUSE_NUM`, `NARA_CaseFiles`.`OTHERNAMEL`, `NARA_CaseFiles`.`OTHERNAMEF`, `NARA_CaseFiles`.`OTHERNAMEM`, `NARA_CaseFiles`.`CERTIFICATE_OF_RESIDENCE`, `NARA_CaseFiles`.`CERTIFICATE_OF_IDENTITY`, `NARA_CaseFiles`.`RED_EAGLE_CERTIFICATE`, `NARA_CaseFiles`.`COURT_RECORD`, `NARA_CaseFiles`.`REMARKS`, `NARA_CaseFiles`.`PORT`, `NARA_CaseFiles`.`SOURCE`, `NARA_CaseFiles`.`DATE_ENTERED` FROM `NARA_CaseFiles` WHERE (Case_ID = '190161')[0m
+  Rendered searchcase/fullDisplay.html.erb within layouts/application (139.6ms)
+Completed 200 OK in 223ms (Views: 91.9ms | ActiveRecord: 129.0ms)

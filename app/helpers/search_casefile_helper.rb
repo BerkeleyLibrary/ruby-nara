@@ -1,0 +1,2 @@
+module SearchCasefileHelper
+end
