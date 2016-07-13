@@ -30,7 +30,7 @@ set up to run as service.
 
 Friendlier URL alias?
 
-
+changing search to be full text.
 
 
 
