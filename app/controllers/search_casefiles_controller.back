@@ -1,0 +1,16 @@
+class SearchCasefilesController < ApplicationController
+	def new
+    @searchCasefile = SearchCasefile.new
+
+    respond_to do |format|
+      format.html # new.html.erb
+      format.xml  { render :xml => @searchCasefile}
+    end
+
+	end
+
+	def search 
+	  @searchCasefile = SearchCasefile.new.find(params[:searchterm])
+	end
+
+end

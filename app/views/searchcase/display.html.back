@@ -1,0 +1,58 @@
+<div class="wrapper">
+<img src="http://blogs.lib.berkeley.edu/rsc/img/header_blog_blue.gif" width="740"
+height="50" />
+</br></br>
+<h2>Here are your results</h2>
+</br>
+<%= link_to "NEW SEARCH", "/searchcase/search",{:style=>'color:#2E64FE;'} %></br>
+</br>
+
+<%= will_paginate @something %>
+<table id='table'>
+<td>Last Name</td><td>First Name</td><td>Middle Name</td><td>Age</td><td>Gender</td><td>Port</td><td>Date</td><td>Ship</td><td>Destination</td></tr>
+<% @something.each do |row| %>
+
+	<td>
+	<% if row.LASTNAME.nil? %>
+		<%= link_to("No Lastname in NARA", {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
+	<% else %>
+		<%= link_to(row.LASTNAME, {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
+	<% end %>
+	</td>
+	<td><%= row.FIRSTNAME %></td><td><%= row.MIDDLENAME %></td><td><%= row.AGE %></td><td><%= row.GENDER %></td><td><%= row.PORT%></td>
+	<td><%= row.date %></td><td><%= row.ship %></td><td><%= row.destination %></td></tr>
+<% end %>
+</table>
+<%= will_paginate @something %>
+<div class="push"></div>
+</div>
+
+
+<div class="footer">
+</br></br>
+<h6>
+<img src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" /><a
+href="http://www.lib.berkeley.edu/Staff/">Staff Web</a><img src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" /><a
+href="http://www.lib.berkeley.edu/">Library Web</a><img
+src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" /><a
+href="http://www.berkeley.edu/">UC Berkeley home</a><img
+src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" />
+<!--End bottom menu-->
+
+<!--Begin footer-->
+
+<br /><br />
+Copyright &copy;<%= Time.now.year %>
+<br />
+
+The Regents of the University of California. <em>All rights
+reserved.</em><br />
+Questions or problems with these forms: <a
+href="mailto:dzuckerm@library.berkeley.edu">dzuckerm@library.berkeley.edu</a>
+<br />
+Server manager: <a href="http://www.lib.berkeley.edu/Comments/">contact</a>.
+
+</h6>
+</div>
+
+
