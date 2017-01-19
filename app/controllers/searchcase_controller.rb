@@ -1,46 +1,76 @@
 class SearchcaseController < ApplicationController
+require 'will_paginate/array'
+
   def search
-		
+
   end
 
   def display
-		@result = params[:q]
-		@result.gsub! "*","%"	
-		@result = "%" + @result.to_s + "%"
-		#@lastname = SearchCasefile.where("state = ? and city= ?" ,params[:state], params[:city])
-#		@return = SearchCasefile.where("LASTNAME like ? or FIRSTNAME like ? or DESTINATION like ? or BIRTHPLACE like ? or PORT like ? or date like ? or Case_ID like ? or ship like ?" ,@result,@result,@result,@result,@result,@result,@result,@result).select(:LASTNAME,:FIRSTNAME,:MIDDLENAME,:AGE,:GENDER,:date,:Case_ID,:PORT,:ship,:destination).order(:LASTNAME,:FIRSTNAME)
 
-		@return = SearchCasefile.where("LASTNAME like ? or FIRSTNAME like ? or DESTINATION like ? or BIRTHPLACE like ? or PORT like ? or date like ? or Case_ID like ? or ship like ?" ,@result,@result,@result,@result,@result,@result,@result,@result).order(:LASTNAME,:FIRSTNAME)
+     @result = params[:q]
+     @result.gsub! "'","*"
+     @result.gsub! "+",""
+     @result.gsub! "-",""
+     @result = word_less_than_four(@result)
+ #    @result = @result.to_s
+     @queryCount = @result.split.count
 
-		@return = @return.paginate(page: params[:page], per_page: 100)		
 
-		if @return.empty?
-			 flash[:notice] = 'You\'re query returned 0 results. please try another search term'
-			 redirect_to :action => :search
-		end			 
 
-#		@something = SearchCasefile.find(:all)
-#		@something = @something.paginate(page: params[:page], per_page: 100)		
+                #@lastname = SearchCasefile.where("state = ? and city= ?" ,params[:state], params[:city])
+#               @return = SearchCasefile.where("LASTNAME like ? or FIRSTNAME like ? or DESTINATION like ? or BIRTHPLACE like ? or PORT like ? or date like ? or Case_ID like ? or ship like ?" ,@result,@result,@result,@result,@result,@result,@result,@result).select(:LASTNAME,:FIRSTNAME,:MIDDLENAME,:AGE,:GENDER,:date,:Case_ID,:PORT,:ship,:destination).order(:LASTNAME,:FIRSTNAME)
 
-	
+                #@return = SearchCasefile.where("LASTNAME like ? or FIRSTNAME like ? or DESTINATION like ? or BIRTHPLACE like ? or PORT like ? or date like ? or Case_ID like ? or ship like ?" ,@result,@result,@result,@result,@result,@result,@result,@result).order(:LASTNAME,:FIRSTNAME)
+
+                if @result.empty?
+                        @return = SearchCasefile.all.order(:LASTNAME,:FIRSTNAME)
+                else
+
+                        @return = SearchCasefile.find_by_sql(["select *, MATCH(LASTNAME,FIRSTNAME,DESTINATION,BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) as matchcount from NARA_CaseFiles where MATCH(LASTNAME,FIRSTNAME,DESTINATION,BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) = #{@queryCount} order by LASTNAME,FIRSTNAME",{:search => @result}])
+                end
+
+
+                @return = @return.paginate(page: params[:page], per_page: 100)
+
+                if @return.empty?
+                         flash[:notice] = 'You\'re query returned 0 results. please try another search term'
+                         redirect_to :action => :search
+                end
+
+
   end
 
-	#In Progress
-	def fullDisplay
-		@result = params[:data]
-		@return = SearchCasefile.where("Case_ID = ?",@result).select(:LASTNAME,:FIRSTNAME,:MIDDLENAME,:BOXNUMBER,:SERIES,:CASENUMBER,:SHIP,:DATE,:DESTINATION,:BIRTHPLACE,:BIRTHPLACE_CITY,:BIRTHPLACE_STATE,:DOB,:AGE,:GENDER,:AFILENUM,:CLASS,:DISPOSITION_OF_CASE,:ST_BORN,:HOUSE_NUM,:OTHERNAMEL,:OTHERNAMEF,:OTHERNAMEM,:CERTIFICATE_OF_RESIDENCE,:CERTIFICATE_OF_IDENTITY,:RED_EAGLE_CERTIFICATE,:COURT_RECORD,:REMARKS,:PORT,:SOURCE,:DATE_ENTERED)
-		
-	end
+        #In Progress
+        def fullDisplay
+                @result = params[:data]
+                @return = SearchCasefile.where("Case_ID = ?",@result).select(:LASTNAME,:FIRSTNAME,:MIDDLENAME,:BOXNUMBER,:SERIES,:CASENUMBER,:SHIP,:DATE,:DESTINATION,:BIRTHPLACE,:BIRTHPLACE_CITY,:BIRTHPLACE_STATE,:DOB,:AGE,:GENDER,:AFILENUM,:CLASS,:DISPOSITION_OF_CASE,:ST_BORN,:HOUSE_NUM,:OTHERNAMEL,:OTHERNAMEF,:OTHERNAMEM,:CERTIFICATE_OF_RESIDENCE,:CERTIFICATE_OF_IDENTITY,:RED_EAGLE_CERTIFICATE,:COURT_RECORD,:REMARKS,:PORT,:SOURCE,:COMPANY,:DATE_ENTERED)
+
+        end
 
 
-	rescue_from ActiveRecord::RecordNotFound do
+        rescue_from ActiveRecord::RecordNotFound do
 
-  	flash[:notice] = 'You\'re qurey returned 0 results. please try another search term'
-  #	render :not_found # or e.g. redirect_to :action => :index
-  	redirect_to :action => :search
-	end
-	
-	def recordNotFound
-	end
+        flash[:notice] = 'You\'re qurey returned 0 results. please try another search term'
+  #     render :not_found # or e.g. redirect_to :action => :index
+        redirect_to :action => :search
+        end
+
+        def recordNotFound
+        end
+
+
+
+  #for mysql full text search add wildcard if word is less than four characters (minimum match for fulltext)
+  def word_less_than_four(query)
+    queryArr = query.split(' ')
+    queryArr.each do |word|
+      if word.size < 4
+        word << "*"
+      end
+    end
+
+    @query = queryArr.join(' ').to_s
+  end
 
 end
+
