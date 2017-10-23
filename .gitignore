@@ -1,2 +1,6 @@
-tmp/
-log/
+tmp/*
+!tmp/**/.keep
+log/*
+!log/**/.keep
+*.zip
+*.log
