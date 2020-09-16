@@ -1,24 +1,8 @@
-# SQLite. Versions 3.8.0 and up are supported.
-#   gem install sqlite3
-#
-#   Ensure the SQLite 3 gem is defined in your Gemfile
-#   gem 'sqlite3'
-#
-default: &default
-  adapter: mysql2
-  host: vm251.lib.berkeley.edu
-  port: 3306
-  database: NARA 
-  username: naraman
-  password: blegendorp 
-  pool: 5
-  timeout: 5000
-
 development:
-  url: 'mysql2://root:root@db:3306/NARA_DEV'
+  url: 'mysql2://root:password1@db:3306/NARA_DEV'
 
 test:
-  url: 'mysql2://root:root@db:3306/NARA_TEST'
+  url: 'mysql2://root:password1@db:3306/NARA_DEV'
 
   production:
       adapter: mysql2
