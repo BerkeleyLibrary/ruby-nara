@@ -1,0 +1,64 @@
+<%= link_to image_tag(asset_path('nara.jpg')),"http://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944" %>
+</br></br>
+<div class="wrapper">
+
+<h2>The Early Arrivals Records Search (EARS)</h2>
+</br>
+<%= render 'description' %>
+
+
+</br></br>
+
+
+
+<%= link_to "NEW SEARCH", "/searchcase/search",{:style=>'color:#2E64FE;'} %></br>
+</br>
+
+<%= will_paginate @return %>
+<table id='table'>
+<td>Last Name</td><td>First Name</td><td>Middle Name</td><td>Age</td><td>Gender</td><td>Port</td><td>Date</td><td>Ship</td><td>Destination</td></tr>
+<% @return.each do |row| %>
+
+	<td>
+	<% if row.LASTNAME.nil? %>
+		<%= link_to("No Lastname in NARA", {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
+	<% else %>
+		<%= link_to(row.LASTNAME, {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
+	<% end %>
+	</td>
+	<td><%= row.FIRSTNAME %></td><td><%= row.MIDDLENAME %></td><td><%= row.AGE %></td><td><%= row.GENDER %></td><td><%= row.PORT%></td>
+	<td><%= row.DATE %></td><td><%= row.SHIP %></td><td><%= row.DESTINATION %></td></tr>
+<% end %>
+</table>
+<%= will_paginate @return %>
+<div class="push"></div>
+</div>
+
+
+<div class="footer">
+</br></br>
+<h6>
+<img src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" /><a
+href="http://www.lib.berkeley.edu/">Library Web</a><img
+src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" /><a
+href="http://www.berkeley.edu/">UC Berkeley home</a><img
+src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" />
+<!--End bottom menu-->
+
+<!--Begin footer-->
+
+<br /><br />
+Copyright &copy;<%= Time.now.year %>
+<br />
+
+The Regents of the University of California. <em>All rights
+reserved.</em><br />
+Questions or problems with these forms: <a
+href="mailto:dzuckerm@library.berkeley.edu">dzuckerm@library.berkeley.edu</a>
+<br />
+Server manager: <a href="http://www.lib.berkeley.edu/Comments/">contact</a>.
+
+</h6>
+</div>
+
+
