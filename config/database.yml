@@ -8,8 +8,8 @@ test:
       adapter: mysql2
       host: vm251.lib.berkeley.edu
       port: 3306
-      database: NARA 
+      database: NARA
       username: naraman
-      password: blegendorp 
+      password: blegendorp
       pool: 5
       timeout: 5000

@@ -24,5 +24,6 @@ RSpec.describe 'Navigate NARA search', type: :feature do
     click_button "Search"
     expect(page).to have_content('LastName FirstName MiddleName Age Gender Ship Port Date Destination')
    first(:link, "Display").click
+   expect(page).to have_content('Record details below')
   end
 end
