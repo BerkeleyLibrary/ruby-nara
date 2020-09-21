@@ -17,14 +17,14 @@ LABEL edu.berkeley.lib.build-url="${BUILD_URL}"
 LABEL edu.berkeley.lib.git-commit="${GIT_COMMIT}"
 LABEL edu.berkeley.lib.git-repo="${GIT_URL}"
 LABEL edu.berkeley.lib.project-tier="4-hour response during business-hours"
-LABEL edu.berkeley.lib.project-description="The Lost and Found Application \
+LABEL edu.berkeley.lib.project-description="The NARA Application \
 is a proprietary service belonging to the UCB library system, tasked with \
-tracking lost items found on library premises."
+serving data from the Early Arrivals Records database"
 
-RUN addgroup -S -g 40001 lostandfound \
-&&  adduser -S -u 40001 -G lostandfound lostandfound \
-&&  install -o lostandfound -g lostandfound -d /opt/app \
-&&  chown -R lostandfound:lostandfound /opt
+RUN addgroup -S -g 40001 nara \
+&&  adduser -S -u 40001 -G nara nara \
+&&  install -o nara -g nara -d /opt/app \
+&&  chown -R nara:nara /opt
 
 RUN apk --no-cache --update upgrade \
 &&  apk --no-cache add \
@@ -65,19 +65,19 @@ RUN apk --update --no-cache add \
         postgresql-dev \
         sqlite-dev
 
-USER lostandfound
+USER nara
 
 # The base image ships bundler 1.17.2, but on macOS, Ruby 2.6.4 comes with
 # bundler 1.17.3 as a default gem, and there's no good way to downgrade.
-RUN gem install bundler -v 1.17.3
+RUN gem install bundler -v 2.1.4
 
 # Install gems by copying over just the Gemfiles ruby version file. We do this
 # before copying over the rest of the codebase to avoid invalidating the
 # Docker cache and forcing an unnecessary bundle-install.
-COPY --chown=lostandfound .ruby-version Gemfile* ./
-RUN bundle install --path /usr/local/bundle
+COPY --chown=nara .ruby-version Gemfile* ./
+RUN bundle config set path '/usr/local/bundle'
 
-COPY --chown=lostandfound . .
+COPY --chown=nara . .
 
 # Extend the path to include our binstubs. Note that this must be done after
 # we've installed the application (and these scripts) otherwise you'll run
@@ -95,11 +95,11 @@ CMD ["rails", "server"]
 FROM base AS production
 
 # Run as the app user to minimize risk to the host.
-USER lostandfound
+USER nara
 
 # Copy the built codebase from the dev stage
-COPY --from=development --chown=lostandfound /opt/app /opt/app
-COPY --from=development --chown=lostandfound /usr/local/bundle /usr/local/bundle
+COPY --from=development --chown=nara /opt/app /opt/app
+COPY --from=development --chown=nara /usr/local/bundle /usr/local/bundle
 ENV PATH "/opt/app/bin:$PATH"
 
 # Sanity-check that everything was installed correctly and still runs in the
