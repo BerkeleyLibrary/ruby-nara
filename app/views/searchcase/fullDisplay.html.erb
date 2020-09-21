@@ -2,7 +2,6 @@
 <p>
 <div class="wrapper">
 <%= link_to "PREVIOUS RESULTS", :back, {:style=>'color:#2E64FE;'} %></br>	
-<%= link_to "NEW SEARCH", "/searchcase/search",{:style=>'color:#2E64FE;'} %></br></br>
 
 <h2>The Early Arrivals Records Search (EARS)</h2>
 </br>
@@ -47,14 +46,8 @@
 	<td>Source</td><td><%= row.SOURCE %></td></tr> 
 	<td>Company</td><td><%= row.COMPANY %></td></tr> 
 	<td>Date Entered</td><td><%= row.DATE_ENTERED %></td></tr> 
-	
 <% end %>
 </table>
-
-</br></br>
-<%= link_to "PREVIOUS RESULTS", :back,{:style=>'color:#2E64FE;'} %></br>
-<%= link_to "NEW SEARCH", "/searchcase/search",{:style=>'color:#2E64FE;'} %></br>
-</br></br>
 
 <div class="push"></div>
 </div>
@@ -66,9 +59,7 @@ href="http://www.lib.berkeley.edu/">Library Web</a><img
 src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" /><a
 href="http://www.berkeley.edu/">UC Berkeley home</a><img
 src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" />
-<!--End bottom menu-->
 
-<!--Begin footer-->
 
 <br /><br />
 Copyright &copy;<%= Time.now.year %> 
