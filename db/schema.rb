@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2020_09_16_221411) do
 
-  create_table "NARA_CaseFiles", id: false, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci", force: :cascade do |t|
+  create_table "NARA_CaseFiles", id: false, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
     t.integer "Case_ID"
     t.integer "ID"
     t.string "BOXNUMBER", limit: 50
