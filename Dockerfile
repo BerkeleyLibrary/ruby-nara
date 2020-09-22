@@ -76,7 +76,7 @@ RUN gem install bundler -v 2.1.4
 # Docker cache and forcing an unnecessary bundle-install.
 COPY --chown=nara .ruby-version Gemfile* ./
 RUN bundle config set path '/usr/local/bundle'
-RUN bundle install --jobs=$(nproc) --deployment --path=/usr/local/bundle
+RUN bundle install
 
 COPY --chown=nara . .
 
