@@ -76,6 +76,7 @@ RUN gem install bundler -v 2.1.4
 # Docker cache and forcing an unnecessary bundle-install.
 COPY --chown=nara .ruby-version Gemfile* ./
 RUN bundle config set path '/usr/local/bundle'
+RUN bundle install --jobs=$(nproc) --deployment --path=/usr/local/bundle
 
 COPY --chown=nara . .
 
@@ -83,6 +84,8 @@ COPY --chown=nara . .
 # we've installed the application (and these scripts) otherwise you'll run
 # into weird path-related issues.
 ENV PATH "/opt/app/bin:$PATH"
+
+
 
 RUN rails assets:precompile
 
