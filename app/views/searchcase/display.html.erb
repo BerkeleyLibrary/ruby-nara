@@ -3,33 +3,63 @@
 <div class="wrapper">
 
 <h2>The Early Arrivals Records Search (EARS)</h2>
-</br>
-<%= render 'description' %>
-
-
-</br></br>
 
 
 
-<%= link_to "NEW SEARCH", "/searchcase/search",{:style=>'color:#2E64FE;'} %></br>
-</br>
+<h3 style="margin: 10px; max-width: 800px;" >A dataset from Investigation Arrival Case Files, San Francisco and Hawaii,
+	Records of the U.S. Immigration and Naturalization Service, Record Group 85, National Archives at San Francisco
+</h3>
+
+
+<div style="margin: 10px; width: 300px;">
+<%= form_tag(action="/searchcase/display", method: "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>
+</div>
 
 <%= will_paginate @return %>
-<table id='table'>
-<td>Last Name</td><td>First Name</td><td>Middle Name</td><td>Age</td><td>Gender</td><td>Port</td><td>Date</td><td>Ship</td><td>Destination</td></tr>
-<% @return.each do |row| %>
+<table id="found_records_table" style="border: 1px; width: 300px;" class="table mt-5">
+    <thead class="thead-light">
+        <tr>
+			<th scope="col">Actions</th>
+			<th scope="col">LastName</th>
+			<th scope="col">FirstName</th>
+			<th scope="col">MiddleName</th>
+			<th scope="col">Age</th>
+			<th scope="col">Gender</th>
+			<th scope="col">Ship</th>
+			<th scope="col">Port</th>
+			<th scope="col">Date</th>
+			<th scope="col">Destination</th>
+        </tr>
+	</thead>
+    <tbody>
+        <% @return.each do |row| %>
+        <tr>
+			<td><%= link_to("Display", {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %></td>
+			<td>
+				<%= row.LASTNAME %>
+		</td>
+			<td><%= row.FIRSTNAME %></td> 
+			<td><%= row.MIDDLENAME %></td> 
+			<td><%= row.AGE %></td> 
+			<td><%= row.GENDER %></td> 
+			<td><%= row.SHIP %></td> 
+			<td><%= row.PORT %></td> 
+			<td><%= row.DATE %></td> 
+			<td><%= row.DESTINATION %></td> 
+            </tr>
+        <% end %>
+		</tbody>
+    </table>
 
-	<td>
-	<% if row.LASTNAME.nil? %>
-		<%= link_to("No Lastname in NARA", {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
-	<% else %>
-		<%= link_to(row.LASTNAME, {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
-	<% end %>
-	</td>
-	<td><%= row.FIRSTNAME %></td><td><%= row.MIDDLENAME %></td><td><%= row.AGE %></td><td><%= row.GENDER %></td><td><%= row.PORT%></td>
-	<td><%= row.DATE %></td><td><%= row.SHIP %></td><td><%= row.DESTINATION %></td></tr>
-<% end %>
-</table>
+
+
+
+
+
 <%= will_paginate @return %>
 <div class="push"></div>
 </div>

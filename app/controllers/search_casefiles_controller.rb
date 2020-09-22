@@ -11,11 +11,10 @@ class SearchCasefilesController < ApplicationController
 		@params = SearchCasefile.new(params[:searchcase])
 		if(@params)
 			render :text => params.inspect
-		end	
+		end
 	end
 
-	def show 
+	def show
 			render :text => params.inspect
 	end
-
 end
