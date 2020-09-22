@@ -21,7 +21,6 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
-gem 'rspec_junit_formatter'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rake'
 
@@ -43,6 +42,8 @@ group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'rspec-rails'
   gem 'capybara', '>= 2.15'
+  gem 'brakeman', '~> 4.8'
+  gem 'rspec_junit_formatter', '~> 0.4.1'
   gem 'selenium-webdriver'
 end
 
