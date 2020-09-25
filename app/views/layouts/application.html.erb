@@ -2,12 +2,28 @@
 <html>
 <head>
   <title>NARA</title>
-
+  <%= stylesheet_link_tag :application %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="container">
+  <div class="navbar">
+    <%= link_to image_tag(asset_path('nara.jpg')),"http://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944" %>
+  </div>
+<div class="container">
+  <h2 class="display-3">The Early Arrivals Records Search (EARS)</h2>
+  <h4>A dataset from Investigation Arrival Case Files, San Francisco and Hawaii, Records of the U.S. Immigration and Naturalization Service, Record Group 85, National Archives at San Francisco.</h3>
+</div>
 
 <%= yield %>
 
+<div id="copyright" class="container">
+  <ul class="menu">
+                  <li><a href="http://www.lib.berkeley.edu/libraries/bancroft-library">The Bancroft Library</a></li>
+    <li>© University of California Regents. All rights reserved.</li>
+                  <li>Server manager: <a href="http://www.lib.berkeley.edu/Comments/">contact</a></li>
+  </ul>
+</div>
+</div>
 </body>
 </html>

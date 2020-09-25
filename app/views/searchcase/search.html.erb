@@ -1,54 +1,22 @@
-<!--img src="http://blogs.lib.berkeley.edu/rsc/img/header_blog_blue.gif" width="740"
-height="50" /-->
-<%= link_to image_tag(asset_path('nara.jpg')),"http://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944" %>
-<div class="wrapper">
-</br></br>
-<h2>The Early Arrivals Records Search (EARS)</h2>
-</br>
-<h3>A dataset from Investigation Arrival Case Files, San Francisco and Hawaii,</br>
-  Records of the U.S. Immigration and Naturalization Service, Record Group 85, National Archives at San Francisco</h3>
-
-</br></br></br>
 
 
-<%= form_tag(action="/searchcase/display", method: "get") do %>
-  <%= label_tag(:q, "Search for:") %>
-  <%= text_field_tag(:q) %>
-  <%= submit_tag("Search") %>
+
+
+<div class="container search-form">
+  <h3>Immigration record:</h3>
+    <%= form_tag(action="/searchcase/display", method: "get") do %>
+    <%= text_field_tag(:q) %>
+    <%= submit_tag("Search") %>
 <% end %>
-
+</div>
 
 <% if flash[:notice] %>
     <div class="notice"><%= flash[:notice] %></div>
 <% end %>
 
-</p>
-<div class="push"></div>
-</div>
 
-<div class="footer">
 
-<h6>
-<img src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" /><a
-href="http://www.lib.berkeley.edu/">Library Web</a><img
-src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" /><a
-href="http://www.berkeley.edu/">UC Berkeley home</a><img
-src="http://www.lib.berkeley.edu/images/dot_black.gif" alt="" />
-<!--End bottom menu-->
 
-<!--Begin footer-->
 
-<br /><br />
-Copyright &copy;<%= Time.now.year %>
-<br />
 
-The Regents of the University of California. <em>All rights
-reserved.</em><br />
-Questions or problems with these forms: <a
-href="mailto:dzuckerm@library.berkeley.edu">dzuckerm@library.berkeley.edu</a>
-<br />
-Server manager: <a href="http://www.lib.berkeley.edu/Comments/">contact</a>.
 
-</h6>
-
-</div>
