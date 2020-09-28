@@ -1,15 +1,15 @@
 test:
-  url: 'mysql2://root:root@db:3306/NARA_DEV'
-
-development:
   url: 'mysql2://root:root@db:3306/NARA_TEST'
 
+development:
+  url: 'mysql2://root:root@db:3306/NARA_DEV'
+
 production:
-    adapter: mysql2
-    host: vm251.lib.berkeley.edu
-    port: 3306
-    database: NARA
-    username: naraman
-    password: blegendorp
-    pool: 5
-    timeout: 5000
+  adapter: mysql2
+  host: vm251.lib.berkeley.edu
+  port: 3306
+  database: NARA
+  username: naraman
+  password: blegendorp
+  pool: 5
+  timeout: 5000
