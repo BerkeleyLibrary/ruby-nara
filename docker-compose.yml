@@ -9,8 +9,8 @@ services:
     image: mariadb:10.4.12-bionic
     restart: always
     environment:
-    MYSQL_USER: root
-    MYSQL_PASSWORD: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
 
   web:
     build:
