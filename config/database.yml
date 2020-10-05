@@ -1,8 +1,8 @@
 test:
-  url: 'mysql2://root:root@db:3306/NARA_TEST'
+  url: 'mysql2://root:password1@db:3306/NARA_TEST'
 
 development:
-  url: 'mysql2://root:root@db:3306/NARA_DEV'
+  url: 'mysql2://root:password1@db:3306/NARA_DEV'
 
 production:
   adapter: mysql2
