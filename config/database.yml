@@ -1,8 +1,10 @@
 test:
   url: 'mysql2://root:root@db:3306/NARA_TEST'
+  reconnect: true
 
 development:
   url: 'mysql2://root:root@db:3306/NARA_DEV'
+  reconnect: true
 
 production:
   adapter: mysql2
