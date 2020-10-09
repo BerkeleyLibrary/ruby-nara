@@ -62,8 +62,7 @@ RUN apk --update --no-cache add \
         build-base \
         coreutils \
         mariadb-dev \
-        postgresql-dev \
-        sqlite-dev
+        mariadb-client
 
 USER nara
 
