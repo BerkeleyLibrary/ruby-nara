@@ -7,11 +7,5 @@ development:
   reconnect: true
 
 production:
-  adapter: mysql2
-  host: db
-  port: 3306
-  database: NARA
-  username: root
-  password: <%= ENV['MYSQL_ROOT_PASSWORD'] %>
-  pool: 5
-  timeout: 5000
+  url: <%= ENV['DATABASE_URL'] %>
+  reconnect: true
