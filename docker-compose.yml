@@ -10,7 +10,12 @@ services:
     restart: always
     environment:
       MYSQL_USER: root
-      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      # For local development, set DATABASE_URL=mysql2://root:root@0.0.0.0:33306/NARA_DEV
+      # or use `mysql -u root -proot -h 0.0.0.0 -P 33306 -D NARA_DEV`
+      - 33306:3306
 
   web:
     build:

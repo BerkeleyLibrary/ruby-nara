@@ -8,8 +8,7 @@ gem 'coffee-rails'
 gem 'will_paginate'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.3'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.4'
+# Use mysql2 as the database for Active Record
 gem 'mysql2'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
@@ -29,6 +28,7 @@ gem 'font-awesome-sass', '~> 5.13.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -42,7 +42,6 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'rspec-rails'
   gem 'capybara', '>= 2.15'
   gem 'brakeman', '~> 4.8'
   gem 'rspec_junit_formatter', '~> 0.4.1'

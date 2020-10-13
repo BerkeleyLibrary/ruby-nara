@@ -59,4 +59,8 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
+  # In development, bypass Rails 6 DNS rebinding attack protection
+  # to allow access by default hostname, container host, etc.
+  config.hosts.clear
 end

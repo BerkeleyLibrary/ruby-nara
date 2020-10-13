@@ -35,11 +35,11 @@ RUN apk --no-cache --update upgrade \
         mariadb-connector-c-dev \
         nodejs \
         openssl \
-        sqlite-libs \
         tzdata \
         xz-libs \
         wget \
         yarn \
+        mariadb-client \
 &&  rm -rf /var/cache/apk/*
 
 # Add and trust InCommon's CA certificates
@@ -61,9 +61,7 @@ FROM base AS development
 RUN apk --update --no-cache add \
         build-base \
         coreutils \
-        mariadb-dev \
-        postgresql-dev \
-        sqlite-dev
+        mariadb-dev
 
 USER nara
 
