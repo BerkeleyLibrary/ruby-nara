@@ -1,8 +1,4 @@
 class SearchcaseController < ApplicationController
-  def search
-
-  end
-
   def display
     require 'will_paginate/array'
      @result = params[:q]
@@ -26,11 +22,10 @@ class SearchcaseController < ApplicationController
     end
   end
 
-        #In Progress
-        def fullDisplay
-                @result = params[:data]
-                @return = SearchCasefile.where("Case_ID = ?",@result).select(:LASTNAME,:FIRSTNAME,:MIDDLENAME,:BOXNUMBER,:SERIES,:CASENUMBER,:SHIP,:DATE,:DESTINATION,:BIRTHPLACE,:BIRTHPLACE_CITY,:BIRTHPLACE_STATE,:DOB,:AGE,:GENDER,:AFILENUM,:CLASS,:DISPOSITION_OF_CASE,:ST_BORN,:HOUSE_NUM,:OTHERNAMEL,:OTHERNAMEF,:OTHERNAMEM,:CERTIFICATE_OF_RESIDENCE,:CERTIFICATE_OF_IDENTITY,:RED_EAGLE_CERTIFICATE,:COURT_RECORD,:REMARKS,:PORT,:SOURCE,:COMPANY,:DATE_ENTERED)
-        end
+    def fullDisplay
+            @result = params[:data]
+            @return = SearchCasefile.where("Case_ID = ?",@result).select(:LASTNAME,:FIRSTNAME,:MIDDLENAME,:BOXNUMBER,:SERIES,:CASENUMBER,:SHIP,:DATE,:DESTINATION,:BIRTHPLACE,:BIRTHPLACE_CITY,:BIRTHPLACE_STATE,:DOB,:AGE,:GENDER,:AFILENUM,:CLASS,:DISPOSITION_OF_CASE,:ST_BORN,:HOUSE_NUM,:OTHERNAMEL,:OTHERNAMEF,:OTHERNAMEM,:CERTIFICATE_OF_RESIDENCE,:CERTIFICATE_OF_IDENTITY,:RED_EAGLE_CERTIFICATE,:COURT_RECORD,:REMARKS,:PORT,:SOURCE,:COMPANY,:DATE_ENTERED)
+    end
 
         rescue_from ActiveRecord::RecordNotFound do
           flash[:notice] = 'You\'re qurey returned 0 results. please try another search term'

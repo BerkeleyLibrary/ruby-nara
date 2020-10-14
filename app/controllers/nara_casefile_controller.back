@@ -1,5 +1,0 @@
-class NaraCasefileController 
-  def index 
-    @user = NaraCasefile.first
-  end 
-end

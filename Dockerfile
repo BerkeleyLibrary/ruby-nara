@@ -3,6 +3,9 @@
 # Includes system dependencies common to both dev and production.
 FROM ruby:2.6.3-alpine AS base
 
+RUN RAILS_ENV=development bundle exec rake assets:precompile
+RUN RAILS_ENV=production bundle exec rake assets:precompile
+
 # This is just metadata and doesn't actually "expose" this port. Rather, it
 # tells other tools (e.g. Traefik) what port the service in this image is
 # expected to listen on.
