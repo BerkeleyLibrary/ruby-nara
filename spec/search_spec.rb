@@ -36,19 +36,19 @@ RSpec.describe 'Navigate NARA search', type: :feature do
    expect(page).to have_content('Using the Libraries')
   end
 
-  scenario 'Display Shows intended footer' do
-    visit '/'
-    expect(page).to have_content('The Early Arrivals Records Search (EARS)')
-    find('#q').set('DOG')
-    click_button "Search"
-   expect(page).to have_content("query returned 0 results")
-  end
+  # scenario 'Display Shows intended footer' do
+  #   visit '/'
+  #   expect(page).to have_content('The Early Arrivals Records Search (EARS)')
+  #   find('#q').set('DOG')
+  #   click_button "Search"
+  #  expect(page).to have_content("query returned 0 results")
+  # end
 
-  scenario 'Display Shows intended footer' do
-    visit '/'
-    expect(page).to have_content('The Early Arrivals Records Search (EARS)')
-    find('#q').set('CAT')
-    click_button "Search"
-   expect(page).to have_content("query returned 0 results")
+  # scenario 'Display Shows intended footer' do
+  #   visit '/'
+  #   expect(page).to have_content('The Early Arrivals Records Search (EARS)')
+  #   find('#q').set('CAT')
+  #   click_button "Search"
+  #  expect(page).to have_content("query returned 0 results")
   end
 end
