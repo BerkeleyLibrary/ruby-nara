@@ -50,7 +50,6 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  # config.assets.css_compressor = :sass
   config.serve_static_assets = true
 
   # Suppress logger output for asset requests.
