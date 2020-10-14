@@ -84,7 +84,6 @@ COPY --chown=nara . .
 ENV PATH "/opt/app/bin:$PATH"
 
 
-
 RUN rails assets:precompile
 
 CMD ["rails", "server"]
