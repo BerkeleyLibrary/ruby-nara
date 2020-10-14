@@ -50,5 +50,5 @@ RSpec.describe 'Navigate NARA search', type: :feature do
   #   find('#q').set('CAT')
   #   click_button "Search"
   #  expect(page).to have_content("query returned 0 results")
-  end
+  # end
 end
