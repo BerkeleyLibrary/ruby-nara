@@ -1,0 +1,1 @@
+naraCasefiles = NaraCasefile.create([{ :Case_ID => 111 }, { :ID => 2 }, { :BOXNUMBER => "TEST" }, { :LASTNAME => "TEST" }, { :FIRSTNAME => "TEST" }])
