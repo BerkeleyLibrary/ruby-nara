@@ -1,5 +1,13 @@
 require 'brakeman/checks/base_check'
 
+#This check tests for find calls which do not use Rails' auto SQL escaping
+#
+#For example:
+# Project.find(:all, :conditions => "name = '" + params[:name] + "'")
+#
+# Project.find(:all, :conditions => "name = '#{params[:name]}'")
+#
+# User.find_by_sql("SELECT * FROM projects WHERE name = '#{params[:name]}'")
 class Brakeman::CheckSQL < Brakeman::BaseCheck
   Brakeman::Checks.add self
 
