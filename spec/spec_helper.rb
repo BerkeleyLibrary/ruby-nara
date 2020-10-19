@@ -3,4 +3,6 @@ require File.expand_path('../config/environment', __dir__)
 require 'rspec/rails'
 require 'capybara/rspec'
 
-Rails.application.load_seed
+def set_up
+    Rails.application.load_seed
+end
