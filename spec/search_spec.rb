@@ -3,7 +3,7 @@ require 'spec_helper'
 RSpec.describe 'Navigate NARA search', type: :feature do
 
   before(:all)  do
-    NARA_CaseFiles = NaraCasefile.create(Case_ID: 111, ID: 2,BOXNUMBER: "Test",LASTNAME: "TEST", FIRSTNAME: "TEST");
+    NARA_CaseFiles = NaraCasefile.create(Case_ID: 1111, ID: 2,BOXNUMBER: "BOXNUMBER",LASTNAME: "LASTNAME", FIRSTNAME: "FIRSTNAME");
   end
 
   scenario 'search' do
@@ -28,7 +28,7 @@ RSpec.describe 'Navigate NARA search', type: :feature do
     expect(page).to have_content('The Early Arrivals Records Search (EARS)')
     click_button "Search"
     expect(page).to have_content('LastName FirstName MiddleName Age Gender Ship Port Date Destination')
-   first(:link, "Display").click
+   first(:link, "LASTNAME").click
    expect(page).to have_content('Record details below')
   end
 
@@ -37,7 +37,7 @@ RSpec.describe 'Navigate NARA search', type: :feature do
     expect(page).to have_content('The Early Arrivals Records Search (EARS)')
     click_button "Search"
     expect(page).to have_content('LastName FirstName MiddleName Age Gender Ship Port Date Destination')
-   first(:link, "Display").click
+   first(:link, "LASTNAME").click
    expect(page).to have_content('© University of California Regents. All rights reserved')
   end
 
