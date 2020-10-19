@@ -138,6 +138,6 @@ header.major{text-align:left;}
 	font: inherit;
 }
 
-.record_col{
-	padding: .2em;
+.record_col {
+	padding: .2em 1em 0 .25em;
 }
