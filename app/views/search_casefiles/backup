@@ -1,3 +1,0 @@
-
-
-<%= NaraCasefile.find(:Case_ID).LASTNAME %>

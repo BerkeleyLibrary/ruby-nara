@@ -1,8 +1,10 @@
+
+<div class="container">
 <div id="main-search" class="container search-form">
 	<h3>Immigration record:</h3>
 	  <%= form_tag(action="/searchcase/display", method: "get") do %>
 	  <%= text_field_tag(:q) %>
-	  <%= submit_tag("Search") %>
+	  <%= submit_tag("Search", :class => "search-bar") %>
   <% end %>
   </div>
 
@@ -49,4 +51,6 @@
   <% if flash[:notice] %>
 	  <div class="notice"><%= flash[:notice] %></div>
   <% end %>
+
+</div>
 
