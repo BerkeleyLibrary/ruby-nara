@@ -3,7 +3,7 @@ require 'spec_helper'
 RSpec.describe 'Navigate NARA search', type: :feature do
 
   before(:all)  do
-    NARA_CaseFiles = NaraCasefile.create(CaseID: 111, ID: 2,BOXNUMBER: "Test",LASTNAME: "TEST", FIRSTNAME: "TEST");
+    NARA_CaseFiles = NaraCasefile.create(Case_ID: 111, ID: 2,BOXNUMBER: "Test",LASTNAME: "TEST", FIRSTNAME: "TEST");
   end
 
   scenario 'search' do
