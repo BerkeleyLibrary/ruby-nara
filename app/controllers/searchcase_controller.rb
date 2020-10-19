@@ -11,7 +11,7 @@ class SearchcaseController < ApplicationController
       if @result.empty?
         @return = SearchCasefile.all.order(:LASTNAME,:FIRSTNAME)
       else
-        @return = SearchCasefile.find_by_sql(["select *, MATCH(LASTNAME,FIRSTNAME,DESTINATION,BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) as matchcount from NARA_CaseFiles where MATCH(LASTNAME,FIRSTNAME,DESTINATION,BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) = #{@queryCount} order by LASTNAME,FIRSTNAME",{:search => @result}])
+        @return = SearchCasefile.find_by_sql(["select *, MATCH(LASTNAME,FIRSTNAME,DESTINATION,BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) as matchcount from NARA_CaseFiles where MATCH(LASTNAME,FIRSTNAME,DESTINATION,BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) = #{@queryCount} or lastname = :search or firstname = :search",{:search => @result}])
       end
 
     @return = @return.paginate(page: params[:page], per_page: 100)
