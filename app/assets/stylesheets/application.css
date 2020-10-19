@@ -137,3 +137,7 @@ header.major{text-align:left;}
 .search-bar {
 	font: inherit;
 }
+
+.record_col{
+	padding: .2em;
+}
