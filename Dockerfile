@@ -107,4 +107,7 @@ ENV PATH "/opt/app/bin:$PATH"
 RUN bundle install --deployment --local --path=/usr/local/bundle \
 &&  rails log:clear tmp:clear
 
+ENV RAILS_ENV=production
+RUN rails assets:precompile
+
 CMD ["rails", "server"]
