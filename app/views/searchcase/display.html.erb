@@ -10,18 +10,32 @@
 
   <%= will_paginate @return %>
   <table id='table'>
-  <td>Last Name</td><td>First Name</td><td>Middle Name</td><td>Age</td><td>Gender</td><td>Port</td><td>Date</td><td>Ship</td><td>Destination</td></tr>
+	<td class="record_col">Last Name</td>
+	<td class="record_col">First Name</td>
+	<td class="record_col">Middle Name</td>
+	<td class="record_col">Age</td>
+	<td class="record_col">Gender</td>
+	<td class="record_col">Port</td>
+	<td class="record_col">Date</td>
+	<td  class="record_col">Ship</td>
+	<td class="record_col">Destination</td>
+</tr>
   <% @return.each do |row| %>
-  
-	  <td>
+	  <td class="record_col">
 	  <% if row.LASTNAME.nil? %>
 		  <%= link_to("No Lastname in NARA", {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
 	  <% else %>
 		  <%= link_to(row.LASTNAME, {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
 	  <% end %>
 	  </td>
-	  <td><%= row.FIRSTNAME %></td><td><%= row.MIDDLENAME %></td><td><%= row.AGE %></td><td><%= row.GENDER %></td><td><%= row.PORT%></td>
-	  <td><%= row.DATE %></td><td><%= row.SHIP %></td><td><%= row.DESTINATION %></td></tr>
+	  <td class="record_col"><%= row.FIRSTNAME %></td>
+	  <td class="record_col"><%= row.MIDDLENAME %></td>
+	  <td class="record_col"><%= row.AGE %></td>
+	  <td class="record_col"><%= row.GENDER %></td>
+	  <td  class="record_col"><%= row.PORT%></td>
+	  <td class="record_col"><%= row.DATE %></td>
+	  <td class="record_col"><%= row.SHIP %></td>
+	  <td class="record_col"><%= row.DESTINATION %></td></tr>
   <% end %>
   </table>
   <%= will_paginate @return %>
