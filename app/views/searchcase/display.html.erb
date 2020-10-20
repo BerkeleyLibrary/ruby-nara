@@ -9,41 +9,22 @@
   </div>
 
   <%= will_paginate @return %>
-<table id="found_records_table" style="border: 1px; width: 300px;" class="table mt-5">
-    <thead class="thead-light">
-        <tr>
-			<th scope="col" class="record_col">LastName</th>
-			<th scope="col"  class="record_col">FirstName</th>
-			<th scope="col"  class="record_col">MiddleName</th>
-			<th scope="col"  class="record_col">Age</th>
-			<th scope="col"  class="record_col">Gender</th>
-			<th scope="col"  class="record_col">Ship</th>
-			<th scope="col"  class="record_col">Port</th>
-			<th scope="col"  class="record_col">Date</th>
-			<th scope="col"  class="record_col">Destination</th>
-        </tr>
-	</thead>
-    <tbody>
-        <% @return.each do |row| %>
-        <tr>
-			<td><%= link_to( row.LASTNAME || "No Lastname in NARA", {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %></td>
-			<td>
-				<%= row.LASTNAME %>
-		</td>
-			<td><%= row.FIRSTNAME %></td> 
-			<td><%= row.MIDDLENAME %></td> 
-			<td><%= row.AGE %></td> 
-			<td><%= row.GENDER %></td> 
-			<td><%= row.SHIP %></td> 
-			<td><%= row.PORT %></td> 
-			<td><%= row.DATE %></td> 
-			<td><%= row.DESTINATION %></td> 
-            </tr>
-        <% end %>
-		</tbody>
-    </table>
-
-<%= will_paginate @return %>
+  <table id='table'>
+  <td>Last Name</td><td>First Name</td><td>Middle Name</td><td>Age</td><td>Gender</td><td>Port</td><td>Date</td><td>Ship</td><td>Destination</td></tr>
+  <% @return.each do |row| %>
+  
+	  <td>
+	  <% if row.LASTNAME.nil? %>
+		  <%= link_to("No Lastname in NARA", {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
+	  <% else %>
+		  <%= link_to(row.LASTNAME, {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
+	  <% end %>
+	  </td>
+	  <td><%= row.FIRSTNAME %></td><td><%= row.MIDDLENAME %></td><td><%= row.AGE %></td><td><%= row.GENDER %></td><td><%= row.PORT%></td>
+	  <td><%= row.DATE %></td><td><%= row.SHIP %></td><td><%= row.DESTINATION %></td></tr>
+  <% end %>
+  </table>
+  <%= will_paginate @return %>
 <div class="push"></div>
 </div>
 
