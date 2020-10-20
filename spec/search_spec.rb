@@ -20,14 +20,14 @@ RSpec.describe 'Navigate NARA search', type: :feature do
     visit '/'
     expect(page).to have_content('The Early Arrivals Records Search (EARS)')
     click_button "Search"
-    expect(page).to have_content('LastName FirstName MiddleName Age Gender Ship Port Date Destination')
+    expect(page).to have_content('NameFirst NameMiddle NameAgeGenderPortDateShipDestination')
   end
 
   scenario 'Display Shows intended view' do
     visit '/'
     expect(page).to have_content('The Early Arrivals Records Search (EARS)')
     click_button "Search"
-    expect(page).to have_content('LastName FirstName MiddleName Age Gender Ship Port Date Destination')
+    expect(page).to have_content('NameFirst NameMiddle NameAgeGenderPortDateShipDestination')
    first(:link, "LASTNAME").click
    expect(page).to have_content('Record details below')
   end
@@ -36,7 +36,7 @@ RSpec.describe 'Navigate NARA search', type: :feature do
     visit '/'
     expect(page).to have_content('The Early Arrivals Records Search (EARS)')
     click_button "Search"
-    expect(page).to have_content('LastName FirstName MiddleName Age Gender Ship Port Date Destination')
+    expect(page).to have_content('NameFirst NameMiddle NameAgeGenderPortDateShipDestination')
    first(:link, "LASTNAME").click
    expect(page).to have_content('© University of California Regents. All rights reserved')
   end
