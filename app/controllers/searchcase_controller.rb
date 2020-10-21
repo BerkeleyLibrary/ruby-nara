@@ -1,7 +1,12 @@
 class SearchcaseController < ApplicationController
   def display
     require 'will_paginate/array'
-     @result = params[:q]
+
+     if !params[:q].nil?
+      @result  = params[:q];
+     else
+      @result =  '';
+     end
      @result.gsub! "'","*"
      @result.gsub! "+",""
      @result.gsub! "-",""

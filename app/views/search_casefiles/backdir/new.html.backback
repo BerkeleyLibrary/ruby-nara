@@ -1,7 +1,0 @@
-<%= form_for @searchcase do |f| %>
-	<p>
-		<%= f.label :"Search Term" %><br />
-		<%= f.text_field :Case_ID %><br />
-	</p>
-	<%= f.submit %>
-<% end %>
