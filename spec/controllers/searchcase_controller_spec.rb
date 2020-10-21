@@ -5,7 +5,7 @@ describe SearchcaseController, "Searchcase controller", :type => :controller  do
     describe "search searchcase" do
         it "searches against all when fed no values" do
             get :display
-            response.body.should have_selector('#table')
+            response.body.should match('Last Name')
         end
         it "Notifies user of no results when nothing found" do
             get :display, params: { q: 'bad search data' }
