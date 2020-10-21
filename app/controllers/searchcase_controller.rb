@@ -22,7 +22,7 @@ class SearchcaseController < ApplicationController
     @return = @return.paginate(page: params[:page], per_page: 100)
 
     if @return.empty?
-            flash[:notice] = 'You\'re query returned 0 results. please try another search term'
+            flash[:notice] = 'Your query returned 0 results. please try another search term'
             redirect_to :action => :search
     end
   end
@@ -31,15 +31,6 @@ class SearchcaseController < ApplicationController
             @result = params[:data]
             @return = SearchCasefile.where("Case_ID = ?",@result).select(:LASTNAME,:FIRSTNAME,:MIDDLENAME,:BOXNUMBER,:SERIES,:CASENUMBER,:SHIP,:DATE,:DESTINATION,:BIRTHPLACE,:BIRTHPLACE_CITY,:BIRTHPLACE_STATE,:DOB,:AGE,:GENDER,:AFILENUM,:CLASS,:DISPOSITION_OF_CASE,:ST_BORN,:HOUSE_NUM,:OTHERNAMEL,:OTHERNAMEF,:OTHERNAMEM,:CERTIFICATE_OF_RESIDENCE,:CERTIFICATE_OF_IDENTITY,:RED_EAGLE_CERTIFICATE,:COURT_RECORD,:REMARKS,:PORT,:SOURCE,:COMPANY,:DATE_ENTERED)
     end
-
-        rescue_from ActiveRecord::RecordNotFound do
-          flash[:notice] = 'You\'re qurey returned 0 results. please try another search term'
-          redirect_to :action => :search
-        end
-
-        def recordNotFound
-        end
-
 
 
   #for mysql full text search add wildcard if word is less than four characters (minimum match for fulltext)
