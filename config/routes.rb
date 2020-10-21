@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   root 'application#index'
   get 'searchcase/search'
   get 'searchcase/display'
-	get 'searchcase/fullDisplay'
+	get 'searchcase/full_display'
   get 'searchcase/recordNotFound'
   get 'nara_casefile/index'
 

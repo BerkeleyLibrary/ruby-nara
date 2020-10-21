@@ -23,9 +23,9 @@
   <% @return.each do |row| %>
 	  <td class="record_col">
 	  <% if row.LASTNAME.nil? %>
-		  <%= link_to("No Lastname in NARA", {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
+		  <%= link_to("No Lastname in NARA", {:controller => "searchcase", :action => "full_display", :data => row},{:style=>'color:#2E64FE;'}) %>
 	  <% else %>
-		  <%= link_to(row.LASTNAME, {:controller => "searchcase", :action => "fullDisplay", :data => row},{:style=>'color:#2E64FE;'}) %>
+		  <%= link_to(row.LASTNAME, {:controller => "searchcase", :action => "full_display", :data => row},{:style=>'color:#2E64FE;'}) %>
 	  <% end %>
 	  </td>
 	  <td class="record_col"><%= row.FIRSTNAME %></td>
