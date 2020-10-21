@@ -1,0 +1,44 @@
+
+<div class="container">
+<%= link_to "PREVIOUS RESULTS", :back, {:style=>'color:#2E64FE;'} %>
+<div class="container">
+<h3> Record details below</h3>
+<table class="full-display">
+<% @return.each do |row| %>
+	<td class="record-detail">LastName</td><td><%= row.LASTNAME %></td></tr>
+	<td class="record-detail">FirstName</td><td><%= row.FIRSTNAME %></td></tr> 
+	<td class="record-detail">MiddleName</td><td><%= row.MIDDLENAME %></td></tr> 
+	<td class="record-detail">Box Number</td><td><%= row.BOXNUMBER %></td></tr> 
+	<td class="record-detail">Series</td><td><%= row.SERIES %></td></tr> 
+	<td class="record-detail">Case Number</td><td><%= row.CASENUMBER %></td></tr> 
+	<td class="record-detail">Ship</td><td><%= row.SHIP %></td></tr> 
+	<td class="record-detail">Port</td><td><%= row.PORT %></td></tr> 
+	<td class="record-detail">Date</td><td><%= row.DATE %></td></tr> 
+	<td class="record-detail">Destination</td><td><%= row.DESTINATION %></td></tr> 
+	<td class="record-detail">Birthplace</td><td><%= row.BIRTHPLACE %></td></tr> 
+	<td class="record-detail">Birthplace City</td><td><%= row.BIRTHPLACE_CITY %></td></tr> 
+	<td class="record-detail">Birthplace State</td><td><%= row.BIRTHPLACE_STATE %></td></tr> 
+	<td class="record-detail">Birthplace City</td><td><%= row.BIRTHPLACE_CITY %></td></tr> 
+	<td class="record-detail">Date of Birth</td><td><%= row.DOB %></td></tr> 
+	<td class="record-detail">Age</td><td><%= row.AGE %></td></tr> 
+	<td class="record-detail">Gender</td><td><%= row.GENDER %></td></tr> 
+	<td class="record-detail">AFilenum</td><td><%= row.AFILENUM %></td></tr> 
+	<td class="record-detail">Class</td><td><%= row.CLASS %></td></tr> 
+	<td class="record-detail">Disposition of Case</td><td><%= row.DISPOSITION_OF_CASE %></td></tr> 
+	<td class="record-detail">Birth Street</td><td><%= row.ST_BORN %></td></tr> 
+	<td class="record-detail">House Number</td><td><%= row.HOUSE_NUM %></td></tr> 
+	<td class="record-detail">Other Last Name</td><td><%= row.OTHERNAMEL %></td></tr> 
+	<td class="record-detail">Other First Name</td><td><%= row.OTHERNAMEF %></td></tr> 
+	<td class="record-detail">Other Middle Name</td><td><%= row.OTHERNAMEM %></td></tr> 
+	<td class="record-detail">Certificate of Residence</td><td><%= row.CERTIFICATE_OF_RESIDENCE %></td></tr> 
+	<td class="record-detail">Certificate of Identity</td><td><%= row.CERTIFICATE_OF_IDENTITY %></td></tr> 
+	<td class="record-detail">Red Eagle Certificate</td><td><%= row.RED_EAGLE_CERTIFICATE %></td></tr> 
+	<td class="record-detail">Court Record</td><td><%= row.COURT_RECORD %></td></tr> 
+	<td class="record-detail">Remarks</td><td><%= row.REMARKS %></td></tr> 
+	<td class="record-detail">Source</td><td><%= row.SOURCE %></td></tr> 
+	<td class="record-detail">Company</td><td><%= row.COMPANY %></td></tr> 
+	<td class="record-detail">Date Entered</td><td><%= row.DATE_ENTERED %></td></tr> 
+<% end %>
+</table>
+</div>
+</div>
