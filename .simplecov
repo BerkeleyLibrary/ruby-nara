@@ -1,7 +1,7 @@
 require 'simplecov-rcov'
 
 SimpleCov.start 'rails' do
-  add_filter %w( /app/channels/ /bin/ /db/ )
+  add_filter %w( /app/channels/ /bin/ /db/  /lib/)
   add_filter 'vendor'
   coverage_dir 'artifacts'
   formatter SimpleCov::Formatter::RcovFormatter
