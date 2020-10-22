@@ -53,6 +53,8 @@ build-iPhoneSimulator/
 #
 # vendor/Pods/
 
+echo "coverage" >> .gitignore
+
 ## Documentation cache and generated files:
 /.yardoc/
 /_yardoc/

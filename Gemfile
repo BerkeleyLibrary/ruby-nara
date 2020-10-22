@@ -25,11 +25,15 @@ gem 'rake'
 gem 'bootstrap-sass'
 gem "font-awesome-rails"
 gem 'bundler-audit'
+gem 'rubocop-rails', require: false
+gem 'rails-healthcheck'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails'
+  gem 'simplecov', require: false
+  gem 'simplecov-rcov', require: false
 end
 
 group :development do

@@ -1,11 +1,14 @@
+# frozen_string_literal:true
+
 Rails.application.routes.draw do
+  Healthcheck.routes(self)
   resources :nara_casefile
   resources :search_casefiles
 
   root 'application#index'
   get 'searchcase/search'
   get 'searchcase/display'
-	get 'searchcase/fullDisplay'
+	get 'searchcase/full_display'
   get 'searchcase/recordNotFound'
   get 'nara_casefile/index'
 

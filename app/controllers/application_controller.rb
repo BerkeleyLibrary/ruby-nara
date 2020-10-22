@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 class ApplicationController < ActionController::Base
-    protect_from_forgery with: :exception
-    def index
-      render template: "searchcase/search"
-    end
+  protect_from_forgery with: :exception
+  def index
+    render template: 'searchcase/search'
   end
+end
