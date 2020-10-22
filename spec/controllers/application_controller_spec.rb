@@ -1,11 +1,13 @@
-require "spec_helper"
+# frozen_string_literal:true
 
-describe ApplicationController, "Application controller", :type => :controller  do
+require 'spec_helper'
+
+describe ApplicationController, 'Application controller', type: :controller do
   render_views
-    describe "Land on saerch page" do
-        it "renders the index template" do
-            get :index
-            response.body.should match(/NARA/)
-        end
+  describe 'Land on saerch page' do
+    it 'renders the index template' do
+      get :index
+      response.body.should match(/NARA/)
     end
+  end
 end
