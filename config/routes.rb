@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  Healthcheck.routes(self)
   resources :nara_casefile
   resources :search_casefiles
 
