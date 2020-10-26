@@ -1,5 +1,18 @@
+// @see https://git.lib.berkeley.edu/ops/jenkins-workflow-scripts/-/blob/master/vars/dockerComposePipeline.groovy
 dockerComposePipeline(
-  stack: [template: "mariadb"],
-  commands: ['sleep 10', 'env RAILS_ENV=test rake'],
-  artifacts: [junit: 'tmp/specs.xml',
-              brakeman: 'tmp/brakeman.json'])
+  stack: [template: 'postgres'],
+  commands: [
+    'rake check',
+    'rake rubocop',
+    'rake brakeman',
+    'rake bundle:audit'
+  ],
+  artifacts: [
+    junit   : 'artifacts/rspec/**/*.xml',
+    html    : [
+      'Code Coverage': 'artifacts/rcov',
+      'RuboCop'      : 'artifacts/rubocop',
+      'Brakeman'     : 'artifacts/brakeman'
+    ]
+  ]
+)
