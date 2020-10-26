@@ -2,7 +2,6 @@
 dockerComposePipeline(
   stack: [template: 'postgres'],
   commands: [
-    'rake rubocop',
     'rake brakeman',
     'rake bundle:audit'
   ],
