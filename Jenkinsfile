@@ -1,6 +1,6 @@
 dockerComposePipeline(
   stack: [template: "mariadb"],
-  commands: ['sleep 10', 'env RAILS_ENV=test rake db:schema:load rake'],
+  commands: ['sleep 10', 'env RAILS_ENV=test db:schema:load rake'],
   artifacts: [junit: 'tmp/**/*.xml',
               brakeman: 'tmp/brakeman.json',
               html: ['Code Coverage': 'tmp/rcov',
