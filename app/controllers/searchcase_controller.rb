@@ -12,61 +12,61 @@ class SearchcaseController < ApplicationController
     @result.gsub '+', ''
     @result.gsub '-', ''
     @result = word_less_than_four(@result)
-    @queryCount = @result.split.count
+    @query_count = @result.split.count
 
     @return = if @result.empty?
                 SearchCasefile.all.order(:LASTNAME, :FIRSTNAME)
               else
                 SearchCasefile
-                  .find_by_sql(['select *, MATCH(LASTNAME,FIRSTNAME,DESTINATION,' +
-                  'BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) as' +
-                  ' matchcount from NARA_CaseFiles where MATCH(LASTNAME,FIRSTNAME' +
-                  ',DESTINATION,BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean ' +
-                  "mode) = #{@queryCount} order by LASTNAME,FIRSTNAME", { search: @result }])
+                  .find_by_sql(['select *, MATCH(LASTNAME,FIRSTNAME,DESTINATION,' \
+                  'BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) as' \
+                  ' matchcount from NARA_CaseFiles where MATCH(LASTNAME,FIRSTNAME' \
+                  ',DESTINATION,BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean ' \
+                  "mode) = #{@query_count} order by LASTNAME,FIRSTNAME", { search: @result }])
               end
 
     @return = @return.paginate(page: params[:page], per_page: 100)
 
-    if @return.empty?
-      flash[:notice] = 'Your query returned 0 results. please try another search term'
-      redirect_to action: :search
-    end
+    return unless @return.empty?
+
+    flash[:notice] = 'Your query returned 0 results. please try another search term'
+    redirect_to action: :search
   end
 
   def full_display
     @result = params[:data]
     @return = SearchCasefile
-              .where('Case_ID = ?', @result)
-              .select(:LASTNAME, :FIRSTNAME,
-                      :MIDDLENAME,
-                      :BOXNUMBER,
-                      :SERIES,
-                      :CASENUMBER,
-                      :SHIP,
-                      :DATE,
-                      :DESTINATION,
-                      :BIRTHPLACE,
-                      :BIRTHPLACE_CITY,
-                      :BIRTHPLACE_STATE,
-                      :DOB,
-                      :AGE,
-                      :GENDER,
-                      :AFILENUM,
-                      :CLASS,
-                      :DISPOSITION_OF_CASE,
-                      :ST_BORN, :HOUSE_NUM,
-                      :OTHERNAMEL,
-                      :OTHERNAMEF,
-                      :OTHERNAMEM,
-                      :CERTIFICATE_OF_RESIDENCE,
-                      :CERTIFICATE_OF_IDENTITY,
-                      :RED_EAGLE_CERTIFICATE,
-                      :COURT_RECORD,
-                      :REMARKS,
-                      :PORT,
-                      :SOURCE,
-                      :COMPANY,
-                      :DATE_ENTERED)
+      .where('Case_ID = ?', @result)
+      .select(:LASTNAME, :FIRSTNAME,
+              :MIDDLENAME,
+              :BOXNUMBER,
+              :SERIES,
+              :CASENUMBER,
+              :SHIP,
+              :DATE,
+              :DESTINATION,
+              :BIRTHPLACE,
+              :BIRTHPLACE_CITY,
+              :BIRTHPLACE_STATE,
+              :DOB,
+              :AGE,
+              :GENDER,
+              :AFILENUM,
+              :CLASS,
+              :DISPOSITION_OF_CASE,
+              :ST_BORN, :HOUSE_NUM,
+              :OTHERNAMEL,
+              :OTHERNAMEF,
+              :OTHERNAMEM,
+              :CERTIFICATE_OF_RESIDENCE,
+              :CERTIFICATE_OF_IDENTITY,
+              :RED_EAGLE_CERTIFICATE,
+              :COURT_RECORD,
+              :REMARKS,
+              :PORT,
+              :SOURCE,
+              :COMPANY,
+              :DATE_ENTERED)
   end
 
   def word_less_than_four(query)
