@@ -1,10 +1,15 @@
 dockerComposePipeline(
-  stack: [
-    template: "mariadb"
-  ],
+  stack: [template: 'mariadb'],
   commands: [
     'sleep 10',
-    'env RAILS_ENV=test db:setup db:schema:load rake',
+    'rake setup',
+    [
+      // These are run in parallel, so if one fails we still run the others.
+      'rake brakeman',
+      'rake bundle:audit',
+      'rake rubocop',
+      'rake spec',
+    ],
   ],
   artifacts: [
     junit: 'tmp/junit/*.xml',

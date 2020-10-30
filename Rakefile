@@ -26,9 +26,6 @@ if ENV['CI'].present?
   ENV['RAILS_ENV'] = 'test'
   ENV['COVERAGE'] ||= 'true'
 
-  multitask setup: %w[assets:precompile]
-  multitask specs: %w[brakeman bundle:audit rubocop spec]
-
-  task(:default).clear
-  task default: %w[specs]
+  task(:setup).clear
+  task setup: %w[db:setup db:schema:load assets:precompile]
 end
