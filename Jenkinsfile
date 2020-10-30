@@ -1,5 +1,3 @@
-@Library('jenkins-workflow-scripts@debugging-shared-compose-stacks') _
-
 dockerComposePipeline(
   stack: [template: 'mariadb'],
   commands: [
