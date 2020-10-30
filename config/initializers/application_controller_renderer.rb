@@ -8,4 +8,4 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
 Rails.application.config.assets.precompile += %w[*.png]
 
-Rails.application.config.assets.precompile += %w( application.css )
+Rails.application.config.assets.precompile += %w[application.css]

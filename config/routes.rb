@@ -8,9 +8,8 @@ Rails.application.routes.draw do
   root 'application#index'
   get 'searchcase/search'
   get 'searchcase/display'
-	get 'searchcase/full_display'
+  get 'searchcase/full_display'
   get 'searchcase/recordNotFound'
   get 'nara_casefile/index'
-
-   get '*path' => redirect('/')
+  get '*path' => redirect('/')
 end

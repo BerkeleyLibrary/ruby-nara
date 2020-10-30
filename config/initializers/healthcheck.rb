@@ -8,8 +8,8 @@ Healthcheck.configure do |config|
   config.method = :get
 
   # -- Response --
-  config.custom = lambda { |controller, checker|
-    controller.render json: "App Healthy" unless checker.errored?
+  config.custom = ->(controller, checker) {
+    controller.render json: 'App Healthy' unless checker.errored?
   }
 
 end
