@@ -26,14 +26,6 @@ if ENV['CI'].present?
   ENV['RAILS_ENV'] = 'test'
   ENV['COVERAGE'] ||= 'true'
 
-  task(:default).clear
-  task default: %w[
-    db:setup
-    db:schema:load
-    assets:precompile
-    brakeman
-    bundle:audit
-    rubocop
-    spec
-  ]
+  task(:setup).clear
+  task setup: %w[db:setup db:schema:load assets:precompile]
 end
