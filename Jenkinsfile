@@ -4,7 +4,6 @@ dockerComposePipeline(
     'sleep 10',
     'rake setup',
     [
-      // These are run in parallel, so if one fails we still run the others.
       'rake brakeman',
       'rake bundle:audit',
       'rake rubocop',
