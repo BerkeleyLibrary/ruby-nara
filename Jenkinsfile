@@ -12,10 +12,10 @@ dockerComposePipeline(
   ],
   artifacts: [
     junit: 'tmp/junit/*.xml',
-    brakeman: 'tmp/brakeman.json',
     html: [
       'Code Coverage': 'tmp/rcov',
       'RuboCop': 'tmp/rubocop',
+      'Brakeman'     : 'artifacts/brakeman'
     ],
   ],
 )
