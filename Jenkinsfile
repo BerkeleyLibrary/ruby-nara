@@ -15,7 +15,7 @@ dockerComposePipeline(
     html: [
       'Code Coverage': 'tmp/rcov',
       'RuboCop': 'tmp/rubocop',
-      'Brakeman'     : 'artifacts/brakeman'
+      'Brakeman': 'artifacts/brakeman'
     ],
   ],
 )
