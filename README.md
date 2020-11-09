@@ -21,3 +21,4 @@ RuboCop-Rails is a gem used to analyze code style, geared towards Rails standard
 '''
 rubocop --require rubocop-rails
 '''
+
