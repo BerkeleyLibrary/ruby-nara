@@ -39,7 +39,7 @@ RUN apk --no-cache --update upgrade \
         xz-libs \
         wget \
         yarn \
-         shared-mime-info \
+        shared-mime-info \
         mariadb-client \
 &&  rm -rf /var/cache/apk/*
 
