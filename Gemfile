@@ -20,7 +20,7 @@ gem 'rails-healthcheck'
 gem 'rake'
 gem 'sass-rails', '>= 6'
 gem 'turbolinks', '~> 5'
-gem 'webpacker', '~> 4.0'
+gem 'webpacker', '~> 5.4.3'
 gem 'will_paginate'
 
 group :development, :test do

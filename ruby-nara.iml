@@ -118,6 +118,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sassc (v2.4.0, RVM: ruby-3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sassc-rails (v2.1.2, RVM: ruby-3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v4.1.0, RVM: ruby-3.0.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="semantic_range (v3.0.0, RVM: ruby-3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simplecov (v0.21.2, RVM: ruby-3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simplecov-html (v0.12.3, RVM: ruby-3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simplecov-rcov (v0.2.3, RVM: ruby-3.0.3) [gem]" level="application" />
@@ -133,7 +134,7 @@
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v2.0.4, RVM: ruby-3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="unicode-display_width (v2.1.0, RVM: ruby-3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="web-console (v4.2.0, RVM: ruby-3.0.3) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="webpacker (v4.3.0, RVM: ruby-3.0.3) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="webpacker (v5.4.3, RVM: ruby-3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-driver (v0.7.5, RVM: ruby-3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="websocket-extensions (v0.1.5, RVM: ruby-3.0.3) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.3.1, RVM: ruby-3.0.3) [gem]" level="application" />
@@ -531,7 +532,7 @@
               <RakeTaskImpl description="Verifies that webpack &amp; webpack-dev-server are present" fullCommand="webpacker:check_binstubs" id="check_binstubs" />
               <RakeTaskImpl description="Verifies if Node.js is installed" fullCommand="webpacker:check_node" id="check_node" />
               <RakeTaskImpl description="Verifies if Yarn is installed" fullCommand="webpacker:check_yarn" id="check_yarn" />
-              <RakeTaskImpl description="Remove old compiled webpacks" fullCommand="webpacker:clean[keep]" id="clean[keep]" />
+              <RakeTaskImpl description="Remove old compiled webpacks" fullCommand="webpacker:clean[keep,age]" id="clean[keep,age]" />
               <RakeTaskImpl description="Remove the webpack compiled output directory" fullCommand="webpacker:clobber" id="clobber" />
               <RakeTaskImpl description="Compile JavaScript packs using webpack for production with digests" fullCommand="webpacker:compile" id="compile" />
               <RakeTaskImpl description="Provide information on Webpacker's environment" fullCommand="webpacker:info" id="info" />
