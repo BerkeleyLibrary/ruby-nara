@@ -24,6 +24,10 @@ Layout/EmptyLinesAroundClassBody:
 Layout/EmptyLinesAroundModuleBody:
   Enabled: false
 
+# Reasonable line-length check; it's too easy for the cure to be worse than the disease
+Layout/LineLength:
+  Max: 150
+
 # Make indents consistent regardless of the lengths of variables and method names and whatnot
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
@@ -33,12 +37,8 @@ Layout/MultilineOperationIndentation:
   Enabled: false
 
 # Produces monsters
-Lint/HandleExceptions:
+Lint/SuppressedException:
   AllowComments: true
-
-# Reasonable line-length check; it's too easy for the cure to be worse than the disease
-Metrics/LineLength:
-  Max: 150
 
 # Confusing and weird
 Naming/VariableNumber:
@@ -49,7 +49,7 @@ Naming/MemoizedInstanceVariableName:
   Enabled: False
 
 # It works in context, trust us
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   Enabled: False
 
 # Do what's readable in the context you're in
@@ -59,10 +59,6 @@ Style/AccessModifierDeclarations:
 # 👎 to cultural imperialism
 Style/AsciiComments:
   Enabled: false
-
-# Sometimes we want to distinguish hash parameters from keyword arguments
-Style/BracesAroundHashParameters:
-  Enabled: False
 
 # Seriously?
 Style/CommentedKeyword:

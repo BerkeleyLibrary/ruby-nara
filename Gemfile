@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.3'
+ruby '~> 3.0'
 
 gem 'amazing_print', '~> 1.1'
 gem 'bootsnap', '>= 1.4.2', require: false
@@ -15,7 +15,7 @@ gem 'lograge', '~> 0.11'
 gem 'mysql2'
 gem 'ougai', '~> 1.8'
 gem 'puma', '~> 4.1'
-gem 'rails', '>= 6.1'
+gem 'rails', '~> 6.1'
 gem 'rails-healthcheck'
 gem 'rake'
 gem 'sass-rails', '>= 6'
@@ -33,7 +33,7 @@ end
 
 group :development do
   gem 'listen', '~> 3.2'
-  gem 'rubocop', '~> 0.74.0'
+  gem 'rubocop', '~> 0.92.0'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'web-console', '>= 3.3.0'
