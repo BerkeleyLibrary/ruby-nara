@@ -3,7 +3,7 @@
 class SearchcaseController < ApplicationController
   def display
     require 'will_paginate/array'
-    @result = !params[:q].nil? ? params[:q] : ''
+    @result = params[:q].nil? ? '' : params[:q]
     determine_matches
     @return = @return.paginate(page: params[:page], per_page: 100)
     return unless @return.empty?
@@ -31,10 +31,10 @@ class SearchcaseController < ApplicationController
     else
       SearchCasefile
         .find_by_sql(['select *, MATCH(LASTNAME,FIRSTNAME,DESTINATION,' \
-        'BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) as' \
-        ' matchcount from NARA_CaseFiles where MATCH(LASTNAME,FIRSTNAME' \
-        ',DESTINATION,BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean ' \
-        "mode) = #{@query_count} order by LASTNAME,FIRSTNAME", { search: @result }])
+                      'BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) as' \
+                      ' matchcount from NARA_CaseFiles where MATCH(LASTNAME,FIRSTNAME' \
+                      ',DESTINATION,BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean ' \
+                      "mode) = #{@query_count} order by LASTNAME,FIRSTNAME", { search: @result }])
     end
   end
 
@@ -52,7 +52,7 @@ class SearchcaseController < ApplicationController
   end
 
   def word_less_than_four(query)
-    query_arr = query.split(' ')
+    query_arr = query.split
     query_arr.each do |word|
       word << '*' if word.size < 4
     end

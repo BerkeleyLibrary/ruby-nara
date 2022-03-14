@@ -58,7 +58,7 @@ RSpec.describe 'Check NARA display', type: :feature do
     click_button 'Search'
     expect(page).to have_content(
       'Last Name First Name Middle Name Age Gender ' \
-       'Port Date Ship Destination LASTNAME FIRSTNAME'
+      'Port Date Ship Destination LASTNAME FIRSTNAME'
     )
     first(:link, 'LASTNAME').click
     expect(page).to have_content('Record details below')
