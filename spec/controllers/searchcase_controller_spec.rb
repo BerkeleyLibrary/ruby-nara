@@ -11,7 +11,7 @@ describe SearchcaseController, 'Searchcase controller', type: :controller do
     end
     it 'Notifies user of no results when nothing found' do
       get :display, params: { q: 'bad search data' }
-      response.body.should match('redirected')
+      expect(response.body).to include('redirected')
     end
   end
 end
