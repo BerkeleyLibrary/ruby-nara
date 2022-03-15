@@ -1,20 +1,21 @@
 dockerComposePipeline(
   stack: [template: 'mariadb'],
   commands: [
-    'sleep 10',
     [
+      [exec: 'rake check RAILS_ENV=test'],
+      'rake rubocop',
       'rake brakeman',
       'rake bundle:audit',
-      'rake rubocop',
-      'rake spec',
     ],
   ],
   artifacts: [
-    junit: 'tmp/junit/*.xml',
-    html: [
-      'Code Coverage': 'tmp/rcov',
-      'RuboCop': 'tmp/rubocop',
-      'Brakeman': 'artifacts/brakeman'
+    junit   : 'artifacts/rspec/**/*.xml',
+    html    : [
+      'Code Coverage': 'artifacts/rcov',
+      'RuboCop'      : 'artifacts/rubocop',
+      'Brakeman'     : 'artifacts/brakeman',
+      'ESLint'       : 'artifacts/eslint'
     ],
-  ],
+    raw     : 'artifacts/screenshots/**/*.png'
+  ]
 )
