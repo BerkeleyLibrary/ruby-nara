@@ -27,4 +27,7 @@ if ENV['CI'].present?
 
   task(:setup).clear
   task setup: %w[db:setup db:schema:load assets:precompile]
+
+  # Make :setup a prerequisite to :spec
+  task(:spec).enhance([:setup])
 end

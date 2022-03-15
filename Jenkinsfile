@@ -2,7 +2,6 @@ dockerComposePipeline(
   stack: [template: 'mariadb'],
   commands: [
     'sleep 10',
-    'rake setup',
     [
       'rake brakeman',
       'rake bundle:audit',
