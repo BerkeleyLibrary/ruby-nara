@@ -35,9 +35,10 @@ RUN apt-get update -qq
 
 # Install standard packages from the Debian repository
 RUN apt-get install -y --no-install-recommends \
-    libmariadb-dev \
     curl \
-    gpg
+    git \
+    gpg \
+    libmariadb-dev
 
 # Install Node.js and Yarn from their own repositories
 
@@ -105,7 +106,6 @@ USER root
 # Install system packages needed to build gems with C extensions.
 RUN apt-get install -y --no-install-recommends \
     g++ \
-    git \
     make
 
 # ------------------------------------------------------------
