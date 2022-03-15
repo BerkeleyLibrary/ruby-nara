@@ -7,5 +7,5 @@ development:
   reconnect: true
 
 production:
-  url: <%= ENV['DATABASE_URL'] %>
+  url: <%= ENV['DATABASE_URL'] || 'mysql2://root:root@db:3306/NARA_PROD' %>
   reconnect: true
