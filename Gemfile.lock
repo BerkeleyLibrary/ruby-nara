@@ -67,8 +67,6 @@ GEM
     autoprefixer-rails (10.4.2.0)
       execjs (~> 2)
     bindex (0.8.1)
-    bootsnap (1.11.1)
-      msgpack (~> 1.2)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
@@ -133,10 +131,13 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.15.0)
-    msgpack (1.4.5)
     mysql2 (0.5.3)
     nio4r (2.5.8)
+    nokogiri (1.13.4-aarch64-linux)
+      racc (~> 1.4)
     nokogiri (1.13.4-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.4-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.13.4-x86_64-linux)
       racc (~> 1.4)
@@ -257,9 +258,6 @@ GEM
       sprockets (>= 3.0.0)
     thor (1.2.1)
     tilt (2.0.10)
-    turbolinks (5.2.1)
-      turbolinks-source (~> 5.2)
-    turbolinks-source (5.2.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.1.0)
@@ -282,12 +280,14 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
+  aarch64-linux
+  arm64-darwin
   arm64-darwin-21
+  x86_64-darwin
   x86_64-linux
 
 DEPENDENCIES
   amazing_print (~> 1.1)
-  bootsnap (>= 1.4.2)
   bootstrap-sass
   brakeman (~> 4.8)
   bundler-audit
@@ -296,10 +296,11 @@ DEPENDENCIES
   coffee-rails
   font-awesome-rails
   jbuilder (~> 2.7)
-  jquery-rails
+  jquery-rails (~> 4.4)
   listen (~> 3.2)
   lograge (~> 0.11)
-  mysql2
+  mysql2 (~> 0.5)
+  nokogiri (~> 1.13)
   ougai (~> 1.8)
   puma (~> 4.1)
   rails (~> 6.1)
@@ -312,7 +313,6 @@ DEPENDENCIES
   selenium-webdriver
   simplecov
   simplecov-rcov
-  turbolinks (~> 5)
   web-console (>= 3.3.0)
   webpacker (~> 5.4.3)
   will_paginate
