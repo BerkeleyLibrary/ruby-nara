@@ -1,0 +1,63 @@
+# Ignore database dump file
+
+db/nara-dump.sql
+
+# Ignore .env
+.env
+
+# Ignore git
+.git
+.gitignore
+
+# Ignore bundler config.
+.bundle
+
+build
+
+secrets/*
+
+# Ignore devops files
+Jenkinsfile
+Dockerfile
+docker-compose*
+
+# Ignore the default SQLite database.
+*.sqlite3
+*.sqlite3-journal
+
+# Ignore markdown/readme files
+*.md
+
+# Ignore all log files
+*.log
+
+# Ignore all logfiles and tempfiles.
+log/*
+tmp/*
+
+# Ignore uploaded files in development
+storage/*
+
+nginx
+
+node_modules
+
+# Assets are rebuilt each deploy
+public/assets
+public/packs
+public/packs-test
+
+# Ignore Ruby debug history
+.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+# Ignore Sublime Text project files
+*.sublime*
+
+# Ignore IDEA/RubyMine project files
+.idea/*
+
+# Add back any .keep files
+!.keep
