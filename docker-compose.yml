@@ -1,38 +1,24 @@
-# ######################################################################
-# NOTE
-# ######################################################################
-#
-# This docker-compose file uses a custom database image from lap/nara-db,
-# published in the GitLab container registry (containers.lib.berkeley.edu).
-#
-# Before running `docker-compose`, use `docker login containers.lib.berkeley.edu`
-# to authenticate.
-#
-# (See https://git.lib.berkeley.edu/help/user/packages/container_registry/index.md#authenticate-with-the-container-registry)
-
 services:
-#  adminer:
-#    image: adminer
-#    restart: always
-#    ports:
-#      - 8080:8080
 
   db:
-    # For local development, set DATABASE_URL=mysql2://root:root@0.0.0.0:33306/NARA
-    # or use `mysql -u root -proot -h 0.0.0.0 -P 33306 -D NARA`
-    image: containers.lib.berkeley.edu/lap/nara-db/master:latest
+    image: mariadb:10
     environment:
-      # Default password for the image is empty, but adminer doesn't support
-      # that (https://www.adminer.org/en/password/), so we use 'root'
+      # Default password for the image is empty
       MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: NARA
     restart: always
     ports:
       - 3306:3306
+    command: --ft-min-word-len=3
+    volumes:
+      - ./db/dumps:/docker-entrypoint-initdb.d
 
-  rails:
+  app:
     build:
       context: .
       target: development
+    depends_on:
+      - db
     environment:
       DATABASE_URL: 'mysql2://root:root@db:3306/NARA'
     ports:
@@ -40,5 +26,3 @@ services:
     restart: always
     volumes:
       - ./:/opt/app:delegated
-
-version: "3.7"

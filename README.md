@@ -1,12 +1,18 @@
 # NARA casefiles web database
 
-Rails web app for viewing the NARA case files database. This application runs on VM154 using port 3001. The database itself runs on mysql.lib.berkeley.edu.
+Rails web app for viewing the NARA case files database. This application runs on Docker Swarm.
 
-The Nara database app can be found under the existing Chinese immigration website at https://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944/ alternatively, you can visit the website at https://nara.lib.berkeley.edu/
+The Nara database app can be found under the archived Chinese immigration website at <https://web.archive.org/web/20220124061848/https://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944/index.html>. Alternatively, you can visit the website at https://nara.lib.berkeley.edu/
+
+## Local development and CI
+
+Local development and CI is handled by Docker Compose. The app requires a custom MariaDB configuration variable (see [`docker-compose.yml`](docker-compose.yml)). This should get automatically loaded as you bring the container up locally, but this setting needs to be deployed to the Swarm configuration.
+
+By default, Docker Compose will load sample data given a file in `db/dumps`. In CI, no sample data is loaded.
 
 ## Testing
 
-Nara uses a combination of Rspec and Capybara, for it's test suites. To run a suite from the command line, run 'rspec' from the projects root directory.
+Nara uses a combination of Rspec and Capybara for its test suites. To run a suite from the command line, run 'rspec' from the projects root directory.
 
 ## SimpleCov
 
