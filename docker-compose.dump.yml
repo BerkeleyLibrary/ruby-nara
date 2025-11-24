@@ -1,0 +1,7 @@
+services:
+  db:
+    environment:
+      - MYSQL_DATABASE=NARA
+    volumes:
+      - ./mariadb/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+    
