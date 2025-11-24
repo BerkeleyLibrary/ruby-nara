@@ -4,16 +4,11 @@ Rails web app for viewing the NARA case files database. This application runs on
 
 The Nara database app can be found under the archived Chinese immigration website at <https://web.archive.org/web/20220124061848/https://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944/index.html>. Alternatively, you can visit the website at https://nara.lib.berkeley.edu/
 
-## Local development
+## Local development and CI
 
-Local development and CI is handled by Docker Compose. The app requires a custom MariaDB configuration (see [`mariadb/conf.d/nara.cnf`](dmariadb/conf.d/nara.cnf)). This should get automatically loaded as you bring the container up locally, but this setting needs to be deployed to the Swarm configuration.
+Local development and CI is handled by Docker Compose. The app requires a custom MariaDB configuration variable (see [`docker-compose.yml`](docker-compose.yml)). This should get automatically loaded as you bring the container up locally, but this setting needs to be deployed to the Swarm configuration.
 
-By default, the application does not ship with any data, but you can load some if you place a dump file in `mariadb/docker-entrypoint-initdb.d` and bring the containers up with a supplemental Compose file, e.g.
-
-```bash
-cp nara-dump.sql.gz mariadb/docker-entrypoint-initdb.d
-docker compose -f docker-compose.yml -f docker-compose.dump.yml up -d
-```
+By default, Docker Compose will load sample data given a file in `db/dumps`. In CI, no sample data is loaded.
 
 ## Testing
 

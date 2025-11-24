@@ -5,11 +5,13 @@ services:
     environment:
       # Default password for the image is empty
       MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: NARA
     restart: always
     ports:
       - 3306:3306
+    command: --ft-min-word-len=3
     volumes:
-      - ./mariadb/conf.d:/etc/mysql/conf.d
+      - ./db/dumps:/docker-entrypoint-initdb.d
 
   app:
     build:
