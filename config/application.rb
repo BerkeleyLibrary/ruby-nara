@@ -1,6 +1,3 @@
-require_relative '../lib/docker'
-Docker::Secret.setup_environment!
-
 require_relative 'boot'
 
 require 'rails/all'
