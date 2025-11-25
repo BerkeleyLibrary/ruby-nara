@@ -38,7 +38,8 @@ RUN apt-get install -y --no-install-recommends \
     curl \
     git \
     gpg \
-    libmariadb-dev
+    libmariadb-dev \
+    libyaml-dev
 
 # Install Node.js and Yarn from their own repositories
 
