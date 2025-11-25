@@ -10,4 +10,4 @@ module Docker
       end
     end
   end
-  end
+end

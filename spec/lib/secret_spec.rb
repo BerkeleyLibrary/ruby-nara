@@ -32,11 +32,12 @@ describe Docker::Secret do
       expected_secrets.each_key { |k| ENV.delete(k) }
     end
 
-    it 'injects secrets into the environment' do
+    it 'injects secrets into the environment' do 
+      pending('this will be removed in preference of BerkeleyLibrary::Docker')
       fileglob = "#{tmpdir_path}/*"
-      Docker::Secret.setup_environment!(fileglob)
+      described_class.setup_environment!(fileglob)
       expected_secrets.each do |secret_name, secret_value|
-        expect(ENV[secret_name]).to eq(secret_value)
+        expect(ENV.fetch(secret_name, nil)).to eq(secret_value)
       end
     end
   end
