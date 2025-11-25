@@ -123,6 +123,9 @@ RUN gem install bundler --version 2.5.22
 COPY --chown=$APP_USER:$APP_USER Gemfile* ./
 RUN bundle install
 
+COPY --chown=$APP_USER:$APP_USER package.json yarn.lock ./
+RUN yarn install
+
 # Copy the rest of the codebase. We do this after bundle-install so that
 # changes unrelated to the gemset don't invalidate the cache and force a slow
 # re-install.
