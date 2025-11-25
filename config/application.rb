@@ -12,12 +12,13 @@ Bundler.require(*Rails.groups)
 module NewNara
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 6.0
+    config.load_defaults 7.0
+    config.active_record.legacy_connection_handling = false
 
     # ############################################################
     # Customize logging
 
-    require 'lib_it/logging'
-    LibIT::Logging.configure!
+    # require 'berkeley_library/logging'
+    # LibIT::Logging.configure!
   end
 end
