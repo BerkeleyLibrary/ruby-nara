@@ -6,6 +6,8 @@ services:
     image: ${DOCKER_APP_IMAGE}
     volumes: !override
       - artifacts:/opt/app/artifacts
+    environment:
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE:?error}
 
   db:
     volumes: !reset
