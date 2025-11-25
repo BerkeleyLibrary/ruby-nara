@@ -358,6 +358,7 @@ GEM
 
 PLATFORMS
   aarch64-linux-gnu
+  x86_64-linux
 
 DEPENDENCIES
   amazing_print (~> 1.1)
