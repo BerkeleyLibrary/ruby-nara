@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NARA</title>
+  <title>Early Arrivals Search (EARS)</title>
   <%= stylesheet_link_tag :application %>
   <%= csrf_meta_tags %>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <%= link_to image_tag(asset_path('nara.jpg')),"https://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944/" %>
+    <%= link_to image_tag(asset_path('nara.jpg')),"https://web.archive.org/web/20220124061848/https://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944/index.html" %>
   </div>
 <div class="container">
   <h2 class="display-3">The Early Arrivals Records Search (EARS)</h2>
@@ -18,7 +18,7 @@
 <%= yield %>
   <div id="copyright" >
     <ul class="menu">
-                    <li><a href="http://www.lib.berkeley.edu/libraries/bancroft-library">The Bancroft Library</a></li>
+                    <li><a href="http://www.lib.berkeley.edu/visit/bancroft">The Bancroft Library</a></li>
       <li>© University of California Regents. All rights reserved.</li>
     </ul>
   </div>

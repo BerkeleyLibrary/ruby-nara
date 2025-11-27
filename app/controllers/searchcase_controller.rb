@@ -8,7 +8,7 @@ class SearchcaseController < ApplicationController
     @return = @return.paginate(page: params[:page], per_page: 100)
     return unless @return.empty?
 
-    flash[:notice] = 'Your query returned 0 results. please try another search term'
+    flash[:notice] = 'Your query returned 0 results. please try another search term' # rubocop:disable Rails/I18nLocaleTexts
     redirect_to action: :search
   end
 
@@ -27,12 +27,12 @@ class SearchcaseController < ApplicationController
 
   def populate_search
     if @result.empty?
-      SearchCasefile.all.order(:LASTNAME, :FIRSTNAME)
+      SearchCasefile.order(:LASTNAME, :FIRSTNAME)
     else
       SearchCasefile
         .find_by_sql(['select *, MATCH(LASTNAME,FIRSTNAME,DESTINATION,' \
-                      'BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) as' \
-                      ' matchcount from NARA_CaseFiles where MATCH(LASTNAME,FIRSTNAME' \
+                      'BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean mode) as ' \
+                      'matchcount from NARA_CaseFiles where MATCH(LASTNAME,FIRSTNAME' \
                       ',DESTINATION,BIRTHPLACE,PORT,DATE,SHIP) AGAINST(:search in boolean ' \
                       "mode) = #{@query_count} order by LASTNAME,FIRSTNAME", { search: @result }])
     end
@@ -41,7 +41,7 @@ class SearchcaseController < ApplicationController
   def full_display
     @result = params[:data]
     @return = SearchCasefile
-      .where('Case_ID = ?', @result)
+      .where(Case_ID: @result)
       .select(:LASTNAME, :FIRSTNAME, :MIDDLENAME, :BOXNUMBER,
               :SERIES, :CASENUMBER, :SHIP, :DATE, :DESTINATION, :BIRTHPLACE,
               :BIRTHPLACE_CITY, :BIRTHPLACE_STATE, :DOB, :AGE, :GENDER,

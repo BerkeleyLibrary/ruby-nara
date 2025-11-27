@@ -14,7 +14,7 @@ task setup: %w[db:setup]
 # Check (setup + coverage)
 
 desc 'Set up, check test coverage'
-task :check do
+task check: :environment do
   ENV['RAILS_ENV'] = 'test'
   Rake::Task[:setup].invoke
   Rake::Task[:coverage].invoke
