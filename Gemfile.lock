@@ -193,6 +193,8 @@ GEM
     oj (3.16.12)
       bigdecimal (>= 3.0)
       ostruct (>= 0.2)
+    okcomputer (1.19.1)
+      benchmark
     ostruct (0.6.3)
     ougai (1.9.1)
       oj (~> 3.10)
@@ -239,9 +241,6 @@ GEM
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)
-    rails-healthcheck (1.4.0)
-      actionpack
-      railties
     rails-html-sanitizer (1.6.2)
       loofah (~> 2.21)
       nokogiri (>= 1.15.7, != 1.16.7, != 1.16.6, != 1.16.5, != 1.16.4, != 1.16.3, != 1.16.2, != 1.16.1, != 1.16.0.rc1, != 1.16.0)
@@ -408,10 +407,10 @@ DEPENDENCIES
   lograge (~> 0.11)
   mysql2 (~> 0.5.4)
   nokogiri (~> 1.18)
+  okcomputer (~> 1.19)
   ougai (~> 1.8)
   puma (~> 6.6.1)
   rails (~> 8.0.0)
-  rails-healthcheck
   rake
   rspec-rails (~> 8.0)
   rspec_junit_formatter (~> 0.4.1)

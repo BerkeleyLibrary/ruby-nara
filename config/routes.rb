@@ -1,7 +1,7 @@
 # frozen_string_literal:true
 
 Rails.application.routes.draw do
-  Healthcheck.routes(self)
+  get 'health', to: 'ok_computer/ok_computer#index', defaults: { format: :json }
   resources :nara_casefile
   resources :search_casefiles
 
