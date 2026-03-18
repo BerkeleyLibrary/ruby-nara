@@ -35,13 +35,12 @@ RSpec.describe 'NARA search', type: :feature do
       expect(page).to have_content('The Early Arrivals Records Search (EARS)')
     end
 
-    scenario 'empty search shows all results' do # rubocop:disable RSpec/ExampleLength
+    scenario 'empty search shows all results' do
       visit '/'
       click_button 'Search'
       expect(page).to have_content(
         'Search results for immigration records Last Name First Name Middle Name Age Gender Port Date Ship Destination'
-      )
-      expect(page).to have_css('table#table tbody tr')
+      ).and have_css('table#table tbody tr')
     end
 
     scenario 'Search query yields intended results' do
