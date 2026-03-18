@@ -4,7 +4,7 @@
 	<h3>Immigration record:</h3>
 	  <%= form_tag(action="/searchcase/display", method: "get") do %>
 	  <%= label_tag(:q, 'Search records') %>
-	  <%= text_field_tag(:q, params[:q], aria: { label: 'Search immigration records' }) %>
+	  <%= text_field_tag(:q, params[:q], placeholder: 'Enter a name to search', aria: { label: 'Search immigration records' }) %>
 	  <%= submit_tag("Search", :class => "search-bar") %>
   <% end %>
   </div>
