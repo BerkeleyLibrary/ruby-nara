@@ -7,7 +7,7 @@ describe ApplicationController, type: :controller do
   describe '#index' do
     it 'renders the index template' do
       get :index
-      expect(response.body).to match(/Early Arrivals Search/)
+      expect(response.body).to match(/Early Arrivals Records Search/)
     end
   end
 end
