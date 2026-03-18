@@ -43,7 +43,7 @@ group :development do
 end
 
 group :test do
-  gem 'brakeman', '~> 7.0'
+  gem 'brakeman', '~> 8.0'
   gem 'capybara', '>= 2.15'
   gem 'rspec_junit_formatter', '~> 0.4.1'
   gem 'selenium-webdriver'
