@@ -38,15 +38,16 @@ RSpec.describe 'NARA search', type: :feature do
     scenario 'empty search shows all results' do # rubocop:disable RSpec/ExampleLength
       visit '/'
       click_button 'Search'
-      expect(page).to have_content(
-        'Last Name First Name Middle Name Age Gender ' \
-        'Port Date Ship Destination LASTNAME FIRSTNAME'
-      )
+      expect(page).to satisfy do |current_page|
+        current_page.has_content?(
+          'Search results for immigration records Last Name First Name Middle Name Age Gender Port Date Ship Destination'
+        ) && current_page.has_css?('table#table tbody tr')
+      end
     end
 
     scenario 'Search query yields intended results' do
       visit '/'
-      find('#q').set('DOG')
+      find('#q').set('ZZZQUNOMATCH12345')
       click_button 'Search'
       expect(page).to have_content('query returned 0 results')
     end
@@ -55,6 +56,7 @@ RSpec.describe 'NARA search', type: :feature do
   context 'when viewing record display', type: :feature do
     scenario 'Display Shows intended view' do
       visit '/'
+      find('#q').set('LASTNAME')
       click_button 'Search'
       first(:link, 'LASTNAME').click
       expect(page).to have_content('Record details below')
@@ -62,6 +64,7 @@ RSpec.describe 'NARA search', type: :feature do
 
     scenario 'Display Shows intended footer' do
       visit '/'
+      find('#q').set('LASTNAME')
       click_button 'Search'
       first(:link, 'LASTNAME').click
       expect(page).to have_content('© University of California Regents. All rights reserved')

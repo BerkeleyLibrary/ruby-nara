@@ -1,9 +1,11 @@
 <%= form_for(@searchcase, :html => { :multipart => true }) do |f| %>
 
-		<p> 
-			<%= f.label :searchterm, "Enter query:" %><br />
-    	<%= f.text_field :LASTNAME %><br />
- 		</p> 
+		<p>
+			<%= f.label :LASTNAME do %>
+				Enter query:<br />
+				<%= f.text_field :LASTNAME, placeholder: 'Enter a last name' %>
+			<% end %>
+		</p>
 
   
     <%= f.submit %>
