@@ -35,7 +35,7 @@ RSpec.describe 'NARA search', type: :feature do
       expect(page).to have_content('The Early Arrivals Records Search (EARS)')
     end
 
-    scenario 'empty search shows all results' do
+    scenario 'empty search shows all results' do # rubocop:disable RSpec/ExampleLength
       visit '/'
       click_button 'Search'
       expect(page).to satisfy do |current_page|
