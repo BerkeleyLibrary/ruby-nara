@@ -38,9 +38,11 @@ RSpec.describe 'NARA search', type: :feature do
     scenario 'empty search shows all results' do
       visit '/'
       click_button 'Search'
-      expect(page).to have_content(
-        'Search results for immigration records Last Name First Name Middle Name Age Gender Port Date Ship Destination'
-      ).and have_css('table#table tbody tr')
+      expect(page).to satisfy do |current_page|
+        current_page.has_content?(
+          'Search results for immigration records Last Name First Name Middle Name Age Gender Port Date Ship Destination'
+        ) && current_page.has_css?('table#table tbody tr')
+      end
     end
 
     scenario 'Search query yields intended results' do
