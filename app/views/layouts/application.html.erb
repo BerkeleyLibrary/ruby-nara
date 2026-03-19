@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title><%= content_for?(:title) ? content_for(:title) : 'Early Arrivals Records Search (EARS)' %></title>
   <%= stylesheet_link_tag :application %>
@@ -8,11 +8,11 @@
 </head>
 <body>
   <div class="container">
-    <%= link_to image_tag(asset_path('nara.jpg'), alt: 'Chinese Immigration to the United States collection home'), "https://web.archive.org/web/20220124061848/https://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944/index.html" %>
+    <%= link_to image_tag(asset_path('nara.jpg'), alt: 'Chinese Immigration to the United States collection home'), "https://web.archive.org/web/20220124061848/https://bancroft.berkeley.edu/collections/chinese-immigration-to-the-united-states-1884-1944/index.html", aria: { label: 'Open Chinese Immigration to the United States collection home' } %>
   </div>
 <div class="container">
-  <h2 class="display-3">The Early Arrivals Records Search (EARS)</h2>
-  <h4>A dataset from Investigation Arrival Case Files, San Francisco and Hawaii, Records of the U.S. Immigration and Naturalization Service, Record Group 85, National Archives at San Francisco.</h3>
+  <h1 class="display-3">The Early Arrivals Records Search (EARS)</h1>
+  <p>A dataset from Investigation Arrival Case Files, San Francisco and Hawaii, Records of the U.S. Immigration and Naturalization Service, Record Group 85, National Archives at San Francisco.</p>
 </div>
 
 <main>
