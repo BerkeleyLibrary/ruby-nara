@@ -212,6 +212,8 @@ GEM
     public_suffix (7.0.0)
     puma (6.6.1)
       nio4r (~> 2.0)
+    puma-plugin-delayed_stop (0.1.2)
+      puma (>= 5.0, < 8)
     racc (1.8.1)
     rack (3.2.4)
     rack-proxy (0.7.7)
@@ -410,6 +412,7 @@ DEPENDENCIES
   okcomputer (~> 1.19)
   ougai (~> 1.8)
   puma (~> 6.6.1)
+  puma-plugin-delayed_stop (~> 0.1.2)
   rails (~> 8.0.0)
   rake
   rspec-rails (~> 8.0)
