@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '~> 3.0'
+ruby '~> 3.4'
 
 gem 'amazing_print', '~> 1.1'
 gem 'berkeley_library-docker'
@@ -19,7 +19,7 @@ gem 'okcomputer', '~> 1.19'
 gem 'ougai', '~> 1.8'
 gem 'puma', '~> 7.2.1'
 gem 'puma-plugin-delayed_stop', '~> 0.1.2'
-gem 'rails', '~> 8.0.0'
+gem 'rails', '~> 8.1.3'
 gem 'rake'
 gem 'sass-rails', '>= 6'
 gem 'turbolinks'
@@ -28,7 +28,7 @@ gem 'will_paginate'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'byebug', platforms: %i[mri windows]
   gem 'rspec-rails', '~> 8.0'
   gem 'simplecov', require: false
   gem 'simplecov-rcov', require: false
